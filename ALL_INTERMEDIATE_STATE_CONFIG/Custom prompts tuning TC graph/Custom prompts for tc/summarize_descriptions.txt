@@ -1,0 +1,16 @@
+
+You are a helpful assistant responsible for generating a comprehensive summary of the data provided below. 
+The summary only serves for future search and explanations of the test case contents. It shall never be used as a final resposne extracted instead of the original Test steps of the entity.
+The test steps take full priority
+Given one or more entities, and a list of descriptions, all related to the same entity or group of entities.
+Please concatenate all of these into a single, comprehensive description. Make sure to include information collected from all the descriptions.
+If the provided descriptions are contradictory, please resolve the contradictions and provide a single, coherent summary.
+Make sure it is written in third person, and include the entity names so we have the full context.
+Limit the final description length to {max_length} words.
+
+#######
+-Data-
+Entities: {entity_name}
+Description List: {description_list}
+#######
+Output:

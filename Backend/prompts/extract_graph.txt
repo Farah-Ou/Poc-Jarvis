@@ -1,0 +1,528 @@
+
+-Goal-
+Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: One of the following types: [organization, framework, dimension, initiative, stakeholder, community, partnership, technology, sustainability, value, report, training, program, strategy, goal, impact, client, employee, supplier, market, performance, certification, standard, culture, ethics, diversity, inclusion, business, economy]
+- entity_description: Comprehensive description of the entity's attributes and activities
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- relationship_description: explanation as to why you think the source entity and the target entity are related to each other
+- relationship_strength: an integer score between 1 to 10, indicating strength of the relationship between the source entity and target entity
+Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+
+3. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+
+4. If you have to translate into English, just translate the descriptions, nothing else!
+
+5. When finished, output {completion_delimiter}.
+
+-Examples-
+######################
+
+Example 1:
+
+entity_types: [organization, framework, dimension, initiative, stakeholder, community, partnership, technology, sustainability, value, report, training, program, strategy, goal, impact, client, employee, supplier, market, performance, certification, standard, culture, ethics, diversity, inclusion, business, economy]
+text:
+ this framework with more 
+than 600 Accenture clients worldwide to monitor 
+and measure the value we are creating together. 
+The 360° Value Meter reflects our multi-dimensional 
+approach to value and helps us create a shared 
+vision with clients by exploring what value means 
+to them. 
+We start by measuring the value we can drive for 
+our clients’ business across six vital dimensions: 
+Financial, Experience, Talent, Inclusion & Diversity, 
+Sustainability and Custom. 
+We then commit to measurable outcomes to drive 
+together and align on how we can continually 
+share and assess the progress toward our shared 
+goals and achievements across these dimensions. 
+Our 360° Value Meter dimensions 
+Financial 
+Meeting financial expectations and outcomes 
+for resilience and growth 
+Experience 
+Creating better experiences for people using 
+technology, data, creativity and innovation 
+Talent 
+Attracting talent, upskilling people and unlocking 
+people's potential for a resilient workforce 
+Inclusion & Diversity 
+Accelerating equality to unleash innovation 
+and drive business results 
+Sustainability 
+Embedding environmental and social 
+responsibility from the beginning 
+Custom 
+Personalizing value with a custom dimension 
+to measure client-specific priorities 
+Home 
+Overview 
+Client 
+Experience 
+Talent 
+Inclusion & Diversity 
+Sustainability 
+Financial 
+Reporting & Data 
+11 
+
+ 
+ 
+ 
+ 
+Accenture 3600Value Report 2024 
+Listening creates better experiences 
+We are listening more, and more often, to our clients, 
+using surveys and project-based feedback tools to 
+augment our daily interactions. We want to understand 
+our clients’ expectations and their perceptions across 
+key performance areas such as loyalty, relationships, 
+value generation, innovation, delivery and ease of doing 
+business. We then communicate our assessment, 
+including data and insights, and plan actions to create 
+even stronger relationships. 
+We believe this approach creates deeper partnerships 
+and ongoing opportunities to make a profound positive 
+impact on our clients’ business, their employees and 
+customers, and the communities where they operate. 
+Collaborating with our clients 
+We co-create with our clients to help drive 360° value, 
+including aligning on the list of value outcomes and 
+strategic priorities they are seeking to achieve. 
+We also co-invest with our clients to help maximize 
+business outcomes. This can include establishing 
+an innovation fund; creating a new asset; identifying 
+opportunities for value-sharing; supporting training 
+for our clients’ people in new skills and capabilities; 
+and staffing additional Accenture resources. 
+We collaborate to make a greater 
+positive impact on the world 
+Our focus on shared success with our clients extends 
+to our shared values. Our clients and partners are also 
+committed to skilling, and we are proud of the ways we 
+amplify our impact when we team with them to do 
+more, together. 
+Pioneering Clean Energy Jobs in Houston's Hydrogen 
+Economy: We are partnering with the Greater Houston 
+Partnership and more than 50 stakeholders—including 
+energy companies, nonprofits and educational 
+institutions—to launch an innovative workforce 
+development initiative in Texas. This collaborative effort 
+is designed to integrate members of underrepresented 
+communities into the emerging hydrogen economy, 
+with a focus on clean energy roles. This unique coalition 
+is committed to fostering a diverse and inclusive 
+energy sector. By expanding employment 
+opportunities, the initiative not only promotes the 
+growth of clean energy careers among marginalized 
+groups but also addresses recruitment and retention 
+challenges faced by employers. 
+❏ Learn more in the Sustainability—Community 
+impact section. 
+Home 
+Overview 
+Client 
+Experience 
+Talent 
+Inclusion & Diversity 
+Sustainability 
+Financial 
+Reporting & Data 
+12 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Accenture 3600Value Report 2024 
+Experience—Partners 
+Innovating with our ecosystem 
+partners 
+Our strong relationships with the world's leading 
+technology companies, as well as emerging startups, 
+enable us to enhance our service offerings, augment 
+our capabilities and deliver distinctive business value 
+to our clients. 
+We collaborate with our ecosystem partners to push the 
+boundaries of what technology can enable, empowering 
+new ways of working and transforming at speed for 
+our clients. 
+To address our clients' most critical business needs, 
+including in Cloud, ERP, Data & AI and Security, we co-
+create and co-invest with our clients and look to our 
+ecosystem and strategic partners as we develop industry-
+relevant solutions to address our clients' most critical 
+business needs. 
+We are proud to be the No. 1 partner with our top 
+ecosystem partners, all leaders in the technology industry 
+with approximately two times the market share of our 
+closest competitor. 
+We have more than 350 partners and suppliers in our 
+ecosystem, and we are a key partner of a broad range of 
+technology providers, including Adobe, Alibaba, Amazon 
+Web Services, Blue Yonder, Cisco, Databricks, Dell, 
+Google, HPE, IBM RedHat, Microsoft, NVIDIA, Oracle, Palo 
+Alto Networks, Pegasystems, Salesforce, SAP, ServiceNow, 
+Snowflake, VMware, Workday and many others. 
+As of the end of fiscal 2024, our people held more than 
+480,000 credentials with our ecosystem partners. 
+➞ Learn more about our Ecosystem Partners 
+and Industry Analyst recognitions. 
+Creating community impact together 
+We also work with our industry partners to make a positive 
+social impact in our communities. 
+For example, in collaboration with the AWS re/Start 
+training program and four nonprofits in India, we are 
+supporting young people, particularly women from 
+underrepresented communities, with training in digital and 
+cloud computing skills. This initiative focuses on 
+equipping participants with entry-level
+------------------------
+output:
+("entity"{tuple_delimiter}ACCENTURE{tuple_delimiter}ORGANIZATION{tuple_delimiter}Accenture is a global professional services company providing consulting services and solutions to clients across various industries.)
+{record_delimiter}
+("entity"{tuple_delimiter}360° VALUE METER{tuple_delimiter}FRAMEWORK{tuple_delimiter}The 360° Value Meter is a framework developed by Accenture to measure and monitor the value created for clients across multiple dimensions.)
+{record_delimiter}
+("entity"{tuple_delimiter}FINANCIAL{tuple_delimiter}DIMENSION{tuple_delimiter}Financial dimension focuses on meeting financial expectations and outcomes for resilience and growth.)
+{record_delimiter}
+("entity"{tuple_delimiter}EXPERIENCE{tuple_delimiter}DIMENSION{tuple_delimiter}Experience dimension aims to create better experiences for people using technology, data, creativity, and innovation.)
+{record_delimiter}
+("entity"{tuple_delimiter}TALENT{tuple_delimiter}DIMENSION{tuple_delimiter}Talent dimension emphasizes attracting talent, upskilling people, and unlocking their potential for a resilient workforce.)
+{record_delimiter}
+("entity"{tuple_delimiter}INCLUSION & DIVERSITY{tuple_delimiter}DIMENSION{tuple_delimiter}Inclusion & Diversity dimension accelerates equality to unleash innovation and drive business results.)
+{record_delimiter}
+("entity"{tuple_delimiter}SUSTAINABILITY{tuple_delimiter}DIMENSION{tuple_delimiter}Sustainability dimension embeds environmental and social responsibility from the beginning of business practices.)
+{record_delimiter}
+("entity"{tuple_delimiter}CUSTOM{tuple_delimiter}DIMENSION{tuple_delimiter}Custom dimension personalizes value to measure client-specific priorities.)
+{record_delimiter}
+("entity"{tuple_delimiter}ACCENTURE 360° VALUE REPORT 2024{tuple_delimiter}REPORT{tuple_delimiter}The Accenture 360° Value Report 2024 provides insights into the value created for clients and the progress made across various dimensions.)
+{record_delimiter}
+("entity"{tuple_delimiter}GREATER HOUSTON PARTNERSHIP{tuple_delimiter}ORGANIZATION{tuple_delimiter}The Greater Houston Partnership is an organization collaborating with Accenture to launch workforce development initiatives in Texas.)
+{record_delimiter}
+("entity"{tuple_delimiter}HYDROGEN ECONOMY{tuple_delimiter}ECONOMY{tuple_delimiter}The Hydrogen Economy refers to the emerging market focused on hydrogen as a clean energy source, integrating underrepresented communities into this sector.)
+{record_delimiter}
+("entity"{tuple_delimiter}AWS RE/START{tuple_delimiter}TRAINING{tuple_delimiter}AWS re/Start is a training program aimed at equipping young people, particularly women from underrepresented communities, with digital and cloud computing skills.)
+{record_delimiter}
+("relationship"{tuple_delimiter}ACCENTURE{tuple_delimiter}360° VALUE METER{tuple_delimiter}Accenture uses the 360° Value Meter framework to measure the value created for clients across various dimensions.{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}360° VALUE METER{tuple_delimiter}FINANCIAL{tuple_delimiter}The Financial dimension is one of the key components measured by the 360° Value Meter framework.{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}360° VALUE METER{tuple_delimiter}EXPERIENCE{tuple_delimiter}The Experience dimension is included in the 360° Value Meter framework to assess client experiences.{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}360° VALUE METER{tuple_delimiter}TALENT{tuple_delimiter}The Talent dimension is part of the 360° Value Meter framework, focusing on workforce development.{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}360° VALUE METER{tuple_delimiter}INCLUSION & DIVERSITY{tuple_delimiter}The Inclusion & Diversity dimension is assessed through the 360° Value Meter framework to promote equality.{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}360° VALUE METER{tuple_delimiter}SUSTAINABILITY{tuple_delimiter}The Sustainability dimension is measured by the 360° Value Meter framework to ensure environmental responsibility.{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}360° VALUE METER{tuple_delimiter}CUSTOM{tuple_delimiter}The Custom dimension personalizes value measurement within the 360° Value Meter framework.{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}ACCENTURE{tuple_delimiter}ACCENTURE 360° VALUE REPORT 2024{tuple_delimiter}The Accenture 360° Value Report 2024 details the insights and progress made by Accenture in delivering value to clients.{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}ACCENTURE{tuple_delimiter}GREATER HOUSTON PARTNERSHIP{tuple_delimiter}Accenture is partnering with the Greater Houston Partnership to launch workforce development initiatives in the hydrogen economy.{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}GREATER HOUSTON PARTNERSHIP{tuple_delimiter}HYDROGEN ECONOMY{tuple_delimiter}The Greater Houston Partnership is involved in initiatives related to the hydrogen economy, focusing on clean energy roles.{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}ACCENTURE{tuple_delimiter}AWS RE/START{tuple_delimiter}Accenture collaborates with the AWS re/Start training program to support young people in acquiring digital skills.{tuple_delimiter}8)
+{completion_delimiter}
+#############################
+
+
+Example 2:
+
+entity_types: [organization, framework, dimension, initiative, stakeholder, community, partnership, technology, sustainability, value, report, training, program, strategy, goal, impact, client, employee, supplier, market, performance, certification, standard, culture, ethics, diversity, inclusion, business, economy]
+text:
+ core, such as moving them to 
+the cloud, leveraging data and AI, and embedding 
+security across the enterprise. 
+• Optimizing their operations, such as helping our 
+clients digitize faster, access digital talent and reduce 
+costs, as well as through digitizing engineering and 
+manufacturing. 
+• Accelerating their revenue growth, such as 
+through using technology and creativity to create 
+personalized connections, experiences and targeted 
+sales at scale; leveraging data and AI; transforming 
+content supply chains and marketing and commerce 
+models; and helping create new digital services and 
+business models. 
+We invest in data and AI to help 
+accelerate our clients' reinvention 
+In June 2023, we announced an industry-leading 
+investment of $3 billion in data & AI by the end of fiscal 
+2026 to help our clients across all industries rapidly and 
+responsibly advance and use AI to achieve greater 
+growth, efficiency and resilience. 
+We believe AI is the new digital. Like digital, AI is both a 
+technology and a new way of working, and its full value 
+will only come from strategies built on both productivity 
+and growth. And we believe it will be used in every part 
+of the enterprise. The introduction of generative AI 
+signifies a transformative era that is set to drive growth 
+for us and our clients. 
+Data will continue to be essential to building the digital 
+core. We expect that the work to prepare enterprise 
+data, which is the fuel for AI, will be an increasing part 
+of our growth. 
+We also continue to steadily increase our Data & AI 
+workforce, reaching approximately 57,000 skilled 
+Data & AI practitioners at the end of fiscal 2024, 
+against our goal of doubling our Data & AI workforce 
+to 80,000 by the end of fiscal 2026. 
+In addition to bringing generative AI innovation to our 
+clients, we are embedding it into how we deliver our 
+services and in how we operate—all underpinned by 
+our Responsible AI compliance program. 
+We help clients focus on talent to 
+accomplish reinvention and take 
+advantage of AI 
+This includes helping clients to access the best people 
+at the right time, place and cost; to become a talent 
+creator to keep their people market-relevant; and to 
+unlock the potential of their talent. 
+This year we launched LearnVantage, our 
+comprehensive technology learning and training 
+services that help our clients reskill and upskill their 
+people so they can be a talent creator. 
+We help connect sustainability to 
+reinvention 
+As our clients reinvent, we believe that trends such as 
+sustainability will continue to be forces behind their 
+need to reinvent and the outcomes of their 
+reinventions. Together with our ecosystem partners, 
+we help our clients define, measure and achieve their 
+environmental, social and governance goals by 
+connecting sustainability with their transformation 
+agendas across their strategy and operations to make 
+their value chains more sustainable. 
+➞ Learn more about our industry analyst recognitions 
+and how we help our clients reinvent. 
+Home 
+Overview 
+Client 
+Experience 
+Talent 
+Inclusion & Diversity 
+Sustainability 
+Financial 
+Reporting & Data 
+8 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Accenture 3600Value Report 2024 
+EXPERIENCE 
+We create 
+experiences that 
+help build trust 
+In this dimension 
+Home 
+Highlights 
+Clients 
+Partners 
+People 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Highlights
+Accenture 3600Value Report 2024
+Accenture 3600Value Report 2024 
+EXPERIENCE 
+We create meaningful 
+experiences for our clients, 
+people and partners that are 
+designed to build trust and 
+strengthen our relationships, 
+our work and our impact 
+in our communities. 
+Highlights 
+Building trust with 
+our clients helps 
+drive reinvention 
+We have partnered 
+with our top 
+100 
+clients for 
+10+ 
+years 
+600+ 
+clients engaged with 
+360° Value Meter 
+Strong partnerships 
+create new possibilities 
+350+ 
+partners and suppliers in 
+our ecosystem 
+480,000+ 
+credentials held by our people 
+with our ecosystem partners 
+Meaningful 
+experiences inspire 
+our people 
+Great Place To Work® 
+Trust Index™ Survey 
+78% 
+of participants agree Accenture 
+is a great place to work 
+40,000+ 
+people have started 
+their People Leadership 
+Credential journey 
+Home 
+Overview 
+Client 
+Experience 
+Talent 
+Inclusion & Diversity 
+Sustainability 
+Financial 
+Reporting & Data 
+10 
+
+ 
+ 
+ 
+ 
+Accenture 3600Value Report 2024 
+Experience—Clients 
+Trusted relationships drive value 
+for our clients 
+We are privileged to serve clients that turn to us 
+as a trusted partner for the 360° value we deliver. 
+Client-centricity is the foundation on which we 
+build trust, collaborate and deliver reinvention for 
+our clients, and we take pride in creating 
+exceptional experiences for them. 
+Our clients’ satisfaction with the results and impact 
+we deliver in our work together—including our 
+proven track record for delivering on programs that 
+drive tangible value—is reflected in the length and 
+depth of our relationships. 
+Measuring 360° value for 
+our clients 
+Our 360° Value Meter helps our clients become 
+the next and best versions of themselves by 
+having more complete and meaningful 
+conversations on value. 
+In fiscal 2024, we used this framework with more 
+than 600 Accenture clients worldwide to monitor 
+and measure the value we are creating together. 
+The 360° Value Meter reflects our multi-dimensional 
+approach to value
+------------------------
+output:
+("entity"{tuple_delimiter}ACCENTURE{tuple_delimiter}ORGANIZATION{tuple_delimiter}Accenture is a global professional services company specializing in digital, cloud, and security services, helping clients with their reinvention and transformation agendas.)
+{record_delimiter}
+("entity"{tuple_delimiter}DATA & AI{tuple_delimiter}TECHNOLOGY{tuple_delimiter}Data & AI is a technology focus area for Accenture, aimed at helping clients leverage data and artificial intelligence for growth and efficiency.)
+{record_delimiter}
+("entity"{tuple_delimiter}LEARNVANTAGE{tuple_delimiter}TRAINING{tuple_delimiter}LearnVantage is Accenture's comprehensive technology learning and training service designed to help clients reskill and upskill their workforce.)
+{record_delimiter}
+("entity"{tuple_delimiter}360° VALUE METER{tuple_delimiter}FRAMEWORK{tuple_delimiter}The 360° Value Meter is a framework used by Accenture to measure and monitor the value created in client relationships.)
+{record_delimiter}
+("entity"{tuple_delimiter}SUSTAINABILITY{tuple_delimiter}DIMENSION{tuple_delimiter}Sustainability is a key dimension in Accenture's approach, connecting environmental, social, and governance goals with client transformation agendas.)
+{record_delimiter}
+("entity"{tuple_delimiter}CLIENTS{tuple_delimiter}STAKEHOLDER{tuple_delimiter}Clients are the organizations that partner with Accenture to achieve their business goals through various services and solutions.)
+{record_delimiter}
+("entity"{tuple_delimiter}PARTNERS{tuple_delimiter}STAKEHOLDER{tuple_delimiter}Partners are organizations that collaborate with Accenture to enhance service offerings and create new possibilities for clients.)
+{record_delimiter}
+("entity"{tuple_delimiter}EMPLOYEES{tuple_delimiter}STAKEHOLDER{tuple_delimiter}Employees are the individuals working at Accenture, contributing to its mission and values, and participating in various training and development programs.)
+{record_delimiter}
+("relationship"{tuple_delimiter}ACCENTURE{tuple_delimiter}DATA & AI{tuple_delimiter}Accenture invests in Data & AI to help clients achieve greater growth, efficiency, and resilience through technology and innovation.{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}ACCENTURE{tuple_delimiter}LEARNVANTAGE{tuple_delimiter}Accenture launched LearnVantage to help clients reskill and upskill their employees, enabling them to become talent creators.{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}ACCENTURE{tuple_delimiter}360° VALUE METER{tuple_delimiter}Accenture uses the 360° Value Meter framework to measure and monitor the value created in client relationships.{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}ACCENTURE{tuple_delimiter}SUSTAINABILITY{tuple_delimiter}Accenture connects sustainability trends with client transformation agendas to achieve environmental, social, and governance goals.{tuple_delimiter}7)
+{record_delimiter}
+("relationship"{tuple_delimiter}ACCENTURE{tuple_delimiter}CLIENTS{tuple_delimiter}Clients rely on Accenture as a trusted partner for delivering 360° value and exceptional experiences.{tuple_delimiter}9)
+{record_delimiter}
+("relationship"{tuple_delimiter}ACCENTURE{tuple_delimiter}PARTNERS{tuple_delimiter}Accenture collaborates with partners to enhance service offerings and create new possibilities for clients.{tuple_delimiter}8)
+{record_delimiter}
+("relationship"{tuple_delimiter}ACCENTURE{tuple_delimiter}EMPLOYEES{tuple_delimiter}Accenture's employees are integral to delivering services and achieving the company's mission and values.{tuple_delimiter}9)
+{completion_delimiter}
+#############################
+
+
+
+-Real Data-
+######################
+entity_types: [organization, framework, dimension, initiative, stakeholder, community, partnership, technology, sustainability, value, report, training, program, strategy, goal, impact, client, employee, supplier, market, performance, certification, standard, culture, ethics, diversity, inclusion, business, economy]
+text: {input_text}
+######################
+output:

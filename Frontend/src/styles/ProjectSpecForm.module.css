@@ -1,0 +1,37 @@
+
+/* // styles/ProjectSpecForm.module.css (same style as UserStoriesForm.module.css)
+// Copy and reuse styles for consistency. */
+
+
+/* // styles/UserStoriesForm.module.css */
+.card {
+    background-color: #e3f2fd;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .inputField {
+    width: 90%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .button {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 2px solid #90caf9;
+    background-color: white;
+    color: #1976d2;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #bbdefb;
+  }

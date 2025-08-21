@@ -1,0 +1,41 @@
+/* .pageContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+.sectionTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2rem 0 1rem;
+  }
+  
+*/
+
+/* styles/PageContainer.module.css */
+.pageContainer {
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+.mainContent {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 3rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .mainContent {
+    padding: 1rem;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+  }
+}

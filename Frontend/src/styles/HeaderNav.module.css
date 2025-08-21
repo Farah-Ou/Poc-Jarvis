@@ -1,0 +1,182 @@
+/* Navigation Container */
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #e3f2fd;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.navButton {
+  background-color: white;
+  color: #1976d2;
+  border: 2px solid #90caf9;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: #bbdefb;
+}
+
+.homeButton {
+  background-color: #1976d2;
+  color: white;
+  border-color: #1565c0;
+}
+
+.homeButton:hover {
+  background-color: #1565c0;
+}
+
+/* Logo and Gear Container */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  padding-right: 2vw;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 15vw;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  padding: 5px;
+}
+
+/* Gear Button */
+.gearButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.gearButton:hover {
+  background-color: #f0f0f0;
+}
+
+/* Popup Overlay */
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Popup Content (JiraConnectForm style) */
+.popupContent {
+  background-color: #ebf5ff;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: #1e1e1e;
+  position: relative;
+}
+
+.popupContent h3 {
+  margin: 0 0 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Form Inputs */
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formGroup label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.formGroup input {
+  width: calc(100% - 2rem);
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Button Styles */
+.formActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.formActions button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.formActions button[type="button"] {
+  background-color: #3b82f6;
+  color: #ffff;
+}
+
+.formActions button[type="button"]:hover {
+  background-color: #cbd5e0;
+}
+
+.formActions button[type="submit"] {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.formActions button[type="submit"]:hover {
+  background-color: #2563eb;
+}
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}

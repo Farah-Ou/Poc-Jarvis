@@ -1,0 +1,370 @@
+
+### **IFRS 1 : Première application des Normes internationales d’information financière**
+
+**Objectif**
+L'objectif d'IFRS 1 est d'assurer que les premiers états financiers IFRS d'une entité et ses rapports intermédiaires contiennent des informations de qualité élevée. Ces informations doivent être transparentes pour les utilisateurs et comparables pour toutes les périodes présentées [1(a)]. Elles doivent également fournir un point de départ approprié pour une comptabilité conforme aux IFRS [2(b)] et être produites à un coût qui ne dépasse pas les avantages attendus [2(c)].
+
+**Champ d’application**
+IFRS 1 s'applique à la préparation des **premiers états financiers IFRS** d'une entité et à chaque **rapport financier intermédiaire** présenté selon IAS 34 pour une partie de la période couverte par ces premiers états financiers IFRS.
+Les **premiers états financiers IFRS** sont les premiers états financiers annuels pour lesquels l'entité adopte les IFRS par une déclaration explicite et sans réserve de conformité aux IFRS. Cela inclut les cas où une entité a précédemment présenté des états financiers selon des dispositions nationales incompatibles avec les IFRS, sans déclaration explicite de conformité aux IFRS, ou avec conformité à certaines IFRS seulement, ou en établissant un rapprochement de certains montants avec les IFRS [3(a)]. IFRS 1 s'applique aussi si l'entité a préparé des états financiers IFRS à des fins internes uniquement, ou une liasse d'informations financières IFRS pour la consolidation sans un jeu complet d'états financiers, ou si elle n'a pas présenté d'états financiers pour les périodes précédentes.
+IFRS 1 ne s'applique pas lorsqu'une entité cesse de présenter ses états financiers selon des dispositions nationales après avoir déjà présenté des états financiers avec une déclaration explicite de conformité aux IFRS, ou si ses états financiers précédents contenaient déjà une telle déclaration, même avec une opinion d'audit avec réserve.
+Cependant, une entité qui a appliqué les IFRS pour une période antérieure mais dont les états financiers annuels les plus récents ne contenaient pas de déclaration explicite et sans réserve de conformité aux IFRS, doit soit appliquer IFRS 1, soit appliquer les IFRS de façon rétrospective selon IAS 8. Si elle n'opte pas pour IFRS 1, elle doit tout de même se conformer aux obligations d'information des paragraphes 23A et 23B d'IFRS 1 en plus de celles d'IAS 8.
+IFRS 1 ne s'applique pas aux changements de méthodes comptables effectués par une entité qui applique déjà les IFRS; de tels changements relèvent d'IAS 8 ou de dispositions transitoires spécifiques d'autres IFRS.
+
+**Comptabilisation et évaluation**
+*   **État de la situation financière d’ouverture en IFRS** : Une entité doit préparer et présenter un état de la situation financière d'ouverture en IFRS à la date de transition aux IFRS, qui sert de point de départ à sa comptabilité IFRS.
+*   **Méthodes comptables** : L'entité doit appliquer les mêmes méthodes comptables dans son état de la situation financière d'ouverture et pour toutes les périodes présentées dans ses premiers états financiers IFRS. Ces méthodes doivent être conformes à chaque IFRS en vigueur à la fin de la première période de présentation de l'information financière IFRS, sauf exceptions spécifiées. Il n'est pas permis d'appliquer des versions différentes des IFRS qui étaient en vigueur à des dates antérieures, mais une nouvelle IFRS non encore obligatoire peut être appliquée de manière anticipée si elle le permet.
+*   Dans son état de la situation financière d'ouverture en IFRS, une entité doit:
+    *   Comptabiliser tous les actifs et passifs imposés par les IFRS [15(a)].
+    *   Ne pas comptabiliser des éléments comme actifs ou passifs si les IFRS ne l'autorisent pas [15(b)].
+    *   Reclasser les éléments comptabilisés selon le référentiel antérieur mais considérés comme un type différent d'actif, passif ou capitaux propres selon les IFRS [15(c)].
+    *   Appliquer les IFRS pour évaluer tous les actifs et passifs comptabilisés [15(d)].
+*   Les ajustements résultant des différences entre les méthodes comptables IFRS et le référentiel antérieur doivent être comptabilisés directement en **résultats non distribués** (ou autre catégorie de capitaux propres) à la date de transition aux IFRS.
+
+**Exceptions à l’application rétrospective d’autres IFRS**
+IFRS 1 interdit l'application rétrospective de certaines dispositions d'autres IFRS. Ces exceptions concernent notamment:
+*   **Estimations** : Les estimations IFRS à la date de transition doivent être cohérentes avec celles du référentiel antérieur, sauf si des éléments probants objectifs montrent qu'elles étaient erronées. Les informations reçues après la date de transition concernant des estimations antérieures doivent être traitées comme des événements postérieurs à la clôture ne donnant pas lieu à des ajustements, sauf si l'estimation nécessite un ajustement pour différences de méthodes ou était erronée. Les estimations IFRS non imposées par le référentiel antérieur doivent tenir compte des conditions existantes à la date de transition.
+*   **Décomptabilisation d’actifs financiers et de passifs financiers** : Généralement prospective à compter de la date de transition, sauf si l'entité choisit une application rétrospective avec information disponible à la comptabilisation initiale [B2, B3].
+*   **Comptabilité de couverture** : Les dérivés sont évalués à la juste valeur et les profits/pertes différés éliminés à la date de transition. Les relations de couverture non conformes à IFRS 9 ne sont pas reflétées rétrospectivement [B4, B5]. Les transactions conclues avant la date de transition ne doivent pas être désignées rétrospectivement comme des opérations de couverture [B6].
+*   **Participations ne donnant pas le contrôle** : Application prospective des dispositions d'IFRS 10 à compter de la date de transition, sauf si IFRS 3 est appliqué rétrospectivement à des regroupements d'entreprises passés [B7].
+*   **Classement et évaluation des actifs financiers** : Évaluation selon IFRS 9 en fonction des faits et circonstances existant à la date de transition [B8].
+*   **Dérivés incorporés** : Appréciation de la séparation selon les conditions existantes à la date d'entrée dans le contrat ou à la date de réexamen selon IFRS 9 [B9].
+*   **Prêts publics** : Classification comme passif financier ou instrument de capitaux propres selon IAS 32. Application prospective des dispositions d'IFRS 9 et IAS 20 aux prêts existants, sans comptabiliser l'avantage d'un taux inférieur au marché comme subvention publique. La valeur comptable du prêt selon le référentiel antérieur est utilisée comme coût présumé en IFRS. L'entité peut appliquer les dispositions de manière rétrospective si l'information est disponible [B10, B11].
+
+**Exemptions à d’autres IFRS**
+Une entité peut décider d'utiliser des exemptions spécifiques listées dans les annexes C à E, mais ne doit pas les appliquer par analogie à d'autres éléments [18, D1]. Des exemples d'exemptions incluent :
+*   **Regroupements d’entreprises** : L'entité peut choisir de ne pas appliquer rétrospectivement IFRS 3 aux regroupements passés. Si cette exemption est utilisée, le classement antérieur (acquisition, acquisition inversée, mise en commun) est maintenu. Les actifs et passifs acquis ou repris sont comptabilisés à la date de transition, sauf exceptions spécifiques, et les ajustements sont portés en résultats non distribués [C4]. La valeur comptable du goodwill est maintenue, avec certains ajustements limités [C4(g)].
+*   **Transactions dont le paiement est fondé sur des actions** : Encouragement, mais non obligation, d'appliquer IFRS 2 aux instruments de capitaux propres attribués avant certaines dates [D2, D3].
+*   **Contrats d’assurance** : Possibilité d'appliquer les dispositions transitoires d'IFRS 4 [D4].
+*   **Utilisation du coût présumé** : Possibilité d'utiliser la juste valeur ou la valeur réévaluée comme coût présumé pour certaines immobilisations corporelles, immeubles de placement, immobilisations incorporelles, ou suite à une privatisation/premier appel public [D5, D6, D7, D8]. Exemption spécifique pour les actifs pétroliers et gaziers ou les actifs liés à des activités à tarifs réglementés [D8A, D8B].
+*   **Montant cumulé des écarts de conversion** : L'entité n'est pas tenue de se conformer à IAS 21 pour les montants cumulés des écarts de conversion existant à la date de transition, et peut considérer le montant cumulé comme nul à cette date [D12, D13].
+*   **Participations dans des filiales, des coentreprises et des entreprises associées** : En états financiers individuels, l'entité peut évaluer ces participations au coût selon IAS 27, ou utiliser un coût présumé basé sur la juste valeur ou la valeur comptable antérieure [D14, D15].
+*   **Instruments financiers composés** : Si la composante passif est éteinte à la date de transition, l'entité n'est pas tenue de distinguer les deux parts de capitaux propres (résultats non distribués et composante de capitaux propres initiale) [D18].
+*   **Désignation d’instruments financiers comptabilisés antérieurement** : Possibilité de désigner certains actifs ou passifs financiers à la juste valeur par le biais du résultat net à la date de transition, sous conditions d'IFRS 9 [D19, D19A, D19B, D19D]. La juste valeur peut constituer le nouveau coût amorti si l'application rétrospective de la méthode du taux d'intérêt effectif ou des dispositions de dépréciation est impraticable [D19C].
+*   **Évaluation à la juste valeur d’actifs financiers ou de passifs financiers lors de leur comptabilisation initiale** : Application prospective des dispositions d'IFRS 9 [D20].
+*   **Passifs relatifs au démantèlement inclus dans le coût d’une immobilisation corporelle** : Exemption pour certains cas de passifs de démantèlement et de remise en état [D21, D21A].
+*   **Coûts d’emprunt** : Possibilité d'appliquer IAS 23 à compter de la date de transition ou d'une date antérieure [D23].
+*   **Hyperinflation grave** : Si la monnaie fonctionnelle se normalise, l'entité peut choisir d'évaluer à la juste valeur tous les actifs et passifs qu'elle détenait déjà à la date de normalisation, et utiliser cette juste valeur comme coût présumé [D29].
+*   **Partenariats** : Possibilité d'appliquer les dispositions transitoires d'IFRS 11 à la date de transition aux IFRS [D31].
+*   **Contrats d’achat ou de vente d’un élément non financier** : Possibilité de désigner des contrats existants à la juste valeur par le biais du résultat net à la date de transition, s'ils satisfont aux conditions d'IAS 39 et si tous les contrats similaires sont désignés [D33].
+
+**Présentation et informations à fournir**
+*   IFRS 1 n'accorde aucune exemption concernant les dispositions de présentation et d'informations à fournir d'autres IFRS.
+*   **Informations comparatives** : Les premiers états financiers IFRS doivent inclure au moins trois états de la situation financière, deux états du résultat global, deux états des flux de trésorerie et deux états des variations des capitaux propres, ainsi que les notes, avec informations comparatives.
+*   **Informations comparatives et résumés historiques non conformes aux IFRS** : Si des résumés historiques ou des informations comparatives sont présentés selon le référentiel comptable antérieur, l'entité doit clairement mentionner qu'ils n'ont pas été préparés selon les IFRS et indiquer la nature des principaux ajustements nécessaires pour la conformité IFRS, sans obligation de les quantifier.
+*   **Explication de la transition aux IFRS** : L'entité doit expliquer l'incidence de la transition sur sa situation financière, sa performance financière et ses flux de trésorerie. Pour les entités ayant appliqué les IFRS antérieurement, les raisons de la cessation et de la reprise de l'application doivent être indiquées [27A, 28].
+*   **Rapprochements** : Les premiers états financiers IFRS doivent inclure des rapprochements des capitaux propres (à la date de transition et à la clôture de la dernière période annuelle du référentiel antérieur) et du résultat global total (pour la dernière période annuelle du référentiel antérieur) entre le référentiel antérieur et les IFRS. Ces rapprochements doivent être suffisamment détaillés. Les corrections d'erreurs antérieures doivent être distinguées des ajustements de transition.
+*   **Rapports financiers intermédiaires** : Si un rapport intermédiaire est présenté, il doit inclure des rapprochements similaires pour la période intermédiaire comparable de l'exercice précédent, ainsi que les rapprochements décrits au paragraphe 24(a) et (b).
+
+### **IFRS 10 : États financiers consolidés**
+
+**Objectif**
+L'objectif d'IFRS 10 est d'établir des principes pour la présentation et la préparation des états financiers consolidés d'une entité qui en contrôle une ou plusieurs autres. Elle exige qu'une société mère présente des états financiers consolidés [133(a)], définit le principe du contrôle comme base de la consolidation [133(b)], explique comment appliquer ce principe [133(c)], établit les exigences comptables [133(d)], et définit la notion d'entité d'investissement avec une exception à la consolidation [134(e)].
+
+**Champ d’application**
+IFRS 10 s'applique à toute entité qui est une société mère, sauf dans des cas spécifiques, notamment si la société mère est elle-même une filiale et répond à certaines conditions (par exemple, ses propriétaires ne s'opposent pas à la non-consolidation, et la société mère ultime ou intermédiaire produit des états financiers consolidés conformes aux IFRS). Elle ne s'applique pas aux régimes d'avantages du personnel [136(b)]. Une entité d'investissement n'est pas tenue de présenter des états financiers consolidés si elle évalue toutes ses filiales à la juste valeur par le biais du résultat net [136(c)].
+
+**Contrôle**
+Un investisseur contrôle une entité émettrice s'il est exposé ou a droit à des rendements variables en raison de ses liens avec l'entité émettrice et a la **capacité d'influer sur ces rendements du fait du pouvoir qu'il détient sur celle-ci**. Les trois éléments du contrôle sont:
+*   Détention du **pouvoir** sur l'entité émettrice [137(a), 150].
+*   Exposition ou droit à des **rendements variables** en raison des liens avec l'entité émettrice [138(b)].
+*   **Capacité d'exercer le pouvoir** pour influer sur le montant des rendements [138(c)].
+L'investisseur doit réévaluer le contrôle si les faits et circonstances changent. Des exemples d'activités pertinentes qui ont une incidence importante sur les rendements sont donnés.
+
+**Exigences comptables**
+*   La société mère doit préparer des états financiers consolidés en utilisant des **méthodes comptables uniformes** pour les transactions et événements similaires.
+*   L'investisseur consolide l'entité émettrice à compter de la date où il en obtient le contrôle et cesse de la consolider lorsqu'il en perd le contrôle.
+*   Les procédures de consolidation impliquent de combiner les postes semblables, de compenser la participation de la société mère dans les capitaux propres de la filiale (avec comptabilisation du goodwill), et d'éliminer complètement les transactions intragroupe.
+*   Les produits et charges d'une filiale sont inclus dans les états financiers consolidés à compter de la date d'acquisition du contrôle jusqu'à la perte de contrôle.
+*   **Participations ne donnant pas le contrôle (minority interests)** : Le résultat net et les autres éléments du résultat global sont attribués à la société mère et aux participations ne donnant pas le contrôle [204, B94]. Les changements dans le pourcentage de détention qui n'entraînent pas une perte de contrôle sont comptabilisés comme des transactions avec les propriétaires dans les capitaux propres [142, B96].
+*   **Perte du contrôle** : Si une société mère perd le contrôle d'une filiale, elle doit sortir les actifs et passifs de l'ancienne filiale, comptabiliser la participation conservée à sa juste valeur, et comptabiliser le profit ou la perte associé à la perte de contrôle [143, B98].
+
+**Entités d'investissement**
+Une entité d'investissement est une entité qui:
+*   Obtient des fonds d'un ou plusieurs investisseurs dans le but de leur fournir des services de gestion d'investissement.
+*   S'engage vis-à-vis de ses investisseurs à des fins de génération de rendements uniquement sous forme de plus-values en capital et/ou de revenus d'investissement.
+*   Évalue et apprécie la performance de la quasi-totalité de ses investissements sur la base de la juste valeur.
+Une entité d'investissement n'est pas tenue de consolider ses filiales ou d'appliquer IFRS 3 lorsqu'elle obtient le contrôle, mais doit plutôt **évaluer ses participations dans des filiales à la juste valeur par le biais du résultat net** conformément à IFRS 9. Cependant, si l'entité d'investissement a une filiale qui fournit des services liés à ses activités d'investissement, elle doit la consolider [147, B85E]. La société mère d'une entité d'investissement doit consolider toutes les entités qu'elle contrôle, y compris celles contrôlées via une entité d'investissement, sauf si elle est elle-même une entité d'investissement. Les stratégies de sortie documentées sont un indicateur clé [B85F].
+
+**Date d'entrée en vigueur et dispositions transitoires**
+IFRS 10 est applicable pour les exercices ouverts à compter du 1er janvier 2013, avec application anticipée autorisée si IFRS 11, IFRS 12, IAS 27 et IAS 28 (modifiées en 2011) sont appliquées simultanément. Des dispositions transitoires spécifiques existent pour la première application, notamment concernant les ajustements du traitement comptable antérieur et l'évaluation rétrospective des filiales par les entités d'investissement [215, 216, C4, C5].
+
+### **IFRS 11 : Partenariats**
+
+**Objectif**
+IFRS 11 établit les principes d'information financière pour les entités qui détiennent des intérêts dans des entreprises contrôlées conjointement (partenariats). Elle définit le contrôle conjoint et exige d'une entité qu'elle détermine le type de partenariat auquel elle participe en évaluant ses droits et obligations.
+
+**Définition et types de partenariats**
+Un **partenariat** est une entreprise sur laquelle deux parties ou plus exercent un **contrôle conjoint**. Le **contrôle conjoint** est le partage du contrôle d'une entreprise en vertu d'un accord contractuel, qui n'existe que lorsque les décisions relatives aux activités pertinentes exigent le consentement unanime des parties partageant le contrôle.
+IFRS 11 distingue deux types de partenariats :
+*   **Entreprise commune (Joint Operation)** : Un partenariat dans lequel les parties qui exercent un contrôle conjoint sur l'entreprise ont **des droits sur les actifs, et des obligations au titre des passifs**, relatifs à l'entreprise. Le coparticipant comptabilise ses droits et obligations, c'est-à-dire ses actifs et passifs, produits et charges, en conformité avec les IFRS applicables.
+*   **Coentreprise (Joint Venture)** : Un partenariat dans lequel les parties qui exercent un contrôle conjoint sur l'entreprise ont **des droits sur l'actif net** de celle-ci. Le coentrepreneur doit comptabiliser ses intérêts dans une coentreprise à titre de participation selon la **méthode de la mise en équivalence**, conformément à IAS 28, sauf exemption.
+
+**Autres participations**
+Une partie qui participe à un partenariat, sans toutefois exercer un contrôle conjoint, comptabilise ses intérêts :
+*   Dans une entreprise commune : selon les paragraphes 20 à 22 d'IFRS 11 si elle a des droits sur les actifs et des obligations au titre des passifs. Si non, elle comptabilise ses intérêts selon les IFRS applicables au type d'intérêts dont il s'agit.
+*   Dans une coentreprise : selon IFRS 9 Instruments financiers, à moins qu'elle n'exerce une influence notable, auquel cas elle applique IAS 28.
+
+**États financiers individuels**
+Dans ses états financiers individuels, un coparticipant ou coentrepreneur comptabilise ses intérêts:
+*   Dans une entreprise commune : selon les paragraphes 20 à 22 d'IFRS 11 [242(a)].
+*   Dans une coentreprise : selon le paragraphe 10 d'IAS 27 [242(b)].
+
+**Date d'entrée en vigueur et dispositions transitoires**
+IFRS 11 est applicable pour les exercices ouverts à compter du 1er janvier 2013, avec application anticipée autorisée si IFRS 10, IFRS 12, IAS 27 et IAS 28 (modifiées en 2011) sont appliquées simultanément. Des dispositions transitoires détaillées sont prévues pour la transition de la méthode de la consolidation proportionnelle ou de la mise en équivalence vers la nouvelle comptabilisation requise, avec des ajustements aux résultats non distribués [C2-C12].
+
+### **IFRS 12 : Informations à fournir sur les intérêts détenus dans d’autres entités**
+
+**Objectif**
+L'objectif d'IFRS 12 est d'exiger qu'une entité fournisse des informations permettant aux utilisateurs de ses états financiers d'évaluer la nature des intérêts détenus dans d'autres entités et les risques qui leur sont associés, ainsi que les incidences de ces intérêts sur la situation financière, la performance financière et les flux de trésorerie de l'entité.
+
+**Champ d’application**
+IFRS 12 s'applique à toute entité qui détient des intérêts dans des filiales, des partenariats (entreprises communes ou coentreprises) et des entités structurées. Elle s'applique également aux intérêts dans une filiale, coentreprise ou entreprise associée qui est évaluée à la juste valeur par le biais du résultat net, ou aux intérêts dans une entité structurée non consolidée, même s'ils sont comptabilisés selon IFRS 9.
+
+**Informations à fournir**
+L'entité doit fournir des informations sur:
+*   **Hypothèses et jugements importants** : Ceux utilisés pour déterminer le contrôle, le contrôle conjoint, l'influence notable, le type de partenariat, ou si l'entité répond à la définition d'une entité d'investissement. Si une entité devient ou cesse d'être une entité d'investissement, elle doit en indiquer la raison et les effets sur ses états financiers.
+*   **Intérêts détenus dans des filiales** : Informations pour comprendre la composition du groupe et les intérêts des participations ne donnant pas le contrôle dans les activités et flux de trésorerie du groupe. Cela inclut des informations financières résumées sur les filiales significatives [272, 274, B10]. Il faut également divulguer la nature et l'étendue des restrictions importantes sur la capacité de l'entité à accéder aux actifs des filiales ou à régler leurs passifs. Des informations sur le soutien financier fourni ou l'intention d'en fournir sont également requises.
+*   **Intérêts détenus dans des filiales non consolidées (entités d'investissement)** : Si une entité d'investissement applique l'exception à la consolidation, elle doit fournir des informations sur la nature et l'étendue de ses intérêts et des risques associés, y compris la juste valeur de ces filiales.
+*   **Intérêts détenus dans des partenariats et entreprises associées** : Informations sur la nature, l'étendue et les incidences financières, y compris la relation contractuelle avec d'autres investisseurs. Pour chaque partenariat et entreprise associée significatifs, le nom, la nature de la relation, le siège social, le pourcentage de détention, et des informations financières résumées sont requis [285, 286, 287, B12, B13]. Les risques associés, y compris les engagements et passifs éventuels, doivent également être divulgués [290, 291, B18, B19].
+*   **Intérêts détenus dans des entités structurées non consolidées** : Informations pour comprendre la nature et l'étendue des intérêts, et pour évaluer la nature et l'évolution des risques associés. Ceci inclut des informations qualitatives et quantitatives sur la nature, l'objet, la taille, les activités et les modes de financement de l'entité structurée. Si l'entité a sponsorisé une entité structurée non consolidée, elle doit divulguer les revenus et les actifs transférés. Un sommaire des valeurs comptables des actifs et passifs, l'exposition maximale au risque de perte, et une comparaison de ces montants sont requis.
+
+**Date d'entrée en vigueur et dispositions transitoires**
+IFRS 12 est applicable pour les exercices ouverts à compter du 1er janvier 2013, avec application anticipée autorisée. Des exceptions sont prévues pour les informations comparatives des périodes antérieures.
+
+### **IFRS 2 : Paiement fondé sur des actions**
+
+**Objectif**
+IFRS 2 spécifie l'information financière à présenter par une entité qui conclut une transaction dont le paiement est fondé sur des actions, en exigeant de refléter dans son résultat net et sa situation financière les effets de ces transactions, y compris les charges liées aux options sur actions attribuées au personnel.
+
+**Champ d’application**
+La norme s'applique aux transactions par lesquelles l'entité acquiert des biens ou des services en échange d'instruments de capitaux propres (transactions réglées en instruments de capitaux propres) ou de montants en trésorerie ou autres actifs basés sur le prix d'instruments de capitaux propres (transactions réglées en trésorerie). Elle ne s'applique pas aux acquisitions de biens dans le cadre d'un regroupement d'entreprises (IFRS 3), mais s'applique aux instruments de capitaux propres attribués au personnel de l'entreprise acquise en tant que rémunération pour la continuité des services. Elle ne s'applique pas non plus aux contrats entrant dans le champ d'application d'IAS 32 ou IAS 39/IFRS 9. Le terme "juste valeur" dans IFRS 2 a une signification spécifique qui diffère de celle d'IFRS 13.
+
+**Comptabilisation et évaluation**
+*   L'entité doit comptabiliser les biens ou services reçus ou acquis au moment où elle les obtient ou au fur et à mesure qu'elle les reçoit. La contrepartie est soit une augmentation des capitaux propres (pour les transactions réglées en instruments de capitaux propres) soit un passif (pour les transactions réglées en trésorerie).
+*   **Transactions réglées en instruments de capitaux propres** :
+    *   Les services reçus sont évalués par référence à la **juste valeur des instruments de capitaux propres attribués à la date d'attribution**.
+    *   Si les droits sont acquis immédiatement, l'entité présume que les services ont été reçus et comptabilise la charge à la date d'attribution.
+    *   Si les droits sont acquis sur une période, la charge est comptabilisée sur cette période. Les montants non acquis en raison de conditions non satisfaites (sauf conditions de marché) ne sont pas comptabilisés.
+    *   Les **conditions de marché** sont prises en compte dans l'estimation de la juste valeur des instruments et la charge est comptabilisée si l'autre partie répond à toutes les autres conditions (non de marché).
+    *   Si la juste valeur ne peut être estimée de manière fiable, l'évaluation se fait à la **valeur intrinsèque**.
+*   **Modifications des termes et conditions** : L'entité doit comptabiliser au minimum les services reçus évalués à la juste valeur à la date d'attribution, sauf non-acquisition des droits due à une condition non-marché. Les modifications qui augmentent la juste valeur totale de l'accord ou sont favorables au personnel sont également comptabilisées. Les modifications défavorables ne réduisent pas la charge.
+*   **Transactions réglées en trésorerie** : Les biens ou services acquis et le passif sont évalués à la **juste valeur du passif**. Le passif est réévalué à chaque date de clôture et à la date de règlement, avec les variations comptabilisées en résultat net.
+*   **Transactions avec choix de règlement** : L'entité comptabilise un instrument financier composé (composante passif et capitaux propres). Les services reçus pour la composante passif sont traités comme une transaction réglée en trésorerie, et pour la composante capitaux propres, comme une transaction réglée en instruments de capitaux propres.
+*   **Transactions intragroupe** : Des dispositions spécifiques régissent la comptabilisation dans les états financiers individuels de chaque entité et dans les états financiers consolidés [B45, B56, B57].
+
+**Informations à fournir**
+L'entité doit fournir des informations permettant de comprendre la nature et la portée des accords de paiement fondé sur des actions en vigueur, comment la juste valeur des biens/services reçus ou des instruments attribués a été déterminée, et l'effet sur le résultat net et la situation financière. Ceci inclut des descriptions des accords, des hypothèses de modèle d'évaluation, des informations sur les modifications, la charge totale comptabilisée, et les valeurs comptables des passifs.
+
+**Date d'entrée en vigueur et dispositions transitoires**
+IFRS 2 est applicable pour les exercices ouverts à compter du 1er janvier 2005. Les passifs résultant de transactions réglées en trésorerie existant à la date d'entrée en vigueur doivent être appliqués rétrospectivement.
+
+### **IFRS 3 : Regroupements d’entreprises**
+
+**Objectif**
+IFRS 3 vise à améliorer la pertinence, la fiabilité et la comparabilité de l'information relative à un regroupement d'entreprises, en spécifiant comment l'acquéreur comptabilise les actifs acquis, les passifs repris, la participation ne donnant pas le contrôle, le goodwill ou le profit résultant d'une acquisition à des conditions avantageuses, et les informations à fournir.
+
+**Champ d’application**
+La norme s'applique à une transaction ou un événement qui répond à la définition d'un regroupement d'entreprises, défini comme une transaction ou un autre événement qui permet à un acquéreur d'obtenir le contrôle d'une ou plusieurs entreprises. Elle ne s'applique pas à la formation d'une coentreprise, à l'acquisition d'un actif ou d'un groupe d'actifs qui ne constitue pas une entreprise, ni aux regroupements d'entités sous contrôle commun. Elle ne s'applique pas non plus à l'acquisition, par une entité d'investissement, d'une participation dans une filiale à évaluer à la juste valeur par le biais du résultat net [399A].
+
+**Identification d’un regroupement d’entreprises et de l’acquéreur**
+L'entité doit déterminer si la transaction constitue un regroupement d'entreprises en vérifiant si les actifs acquis et passifs repris constituent une entreprise. L'**acquéreur** est l'entité qui obtient le contrôle de l'entreprise acquise, conformément aux indications d'IFRS 10 [401, B13].
+
+**Comptabilisation et évaluation**
+*   **Méthode de l’acquisition** : L'acquéreur applique la méthode de l'acquisition pour chaque regroupement d'entreprises.
+*   **Conditions de comptabilisation** : Les actifs identifiables acquis et les passifs repris doivent satisfaire aux définitions d'actifs et de passifs du Cadre conceptuel à la date d'acquisition et faire partie de l'échange. Certains éléments peuvent être comptabilisés même s'ils n'étaient pas reconnus auparavant par l'entreprise acquise (ex: immobilisations incorporelles développées en interne).
+*   **Classement ou désignation** : L'acquéreur classe ou désigne les actifs et passifs acquis pour l'application ultérieure d'autres IFRS, basé sur les dispositions contractuelles, conditions économiques, politiques comptables et autres conditions pertinentes à la date d'acquisition. Des exceptions existent pour la classification des contrats de location et d'assurance, qui sont basées sur les termes du contrat à sa passation.
+*   **Principe d’évaluation** : L'acquéreur évalue les actifs identifiables acquis et les passifs repris à leur **juste valeur à la date d'acquisition**. La participation ne donnant pas le contrôle peut être évaluée à la juste valeur ou au prorata de sa quote-part dans l'actif net identifiable de l'entreprise acquise.
+*   **Exceptions aux principes de comptabilisation ou d’évaluation** : Des exceptions limitées existent pour:
+    *   **Passifs éventuels** : Comptabilisés à la date d'acquisition s'ils représentent une obligation actuelle et que leur juste valeur peut être évaluée de manière fiable, même si la sortie de ressources n'est pas probable.
+    *   **Impôts sur le résultat** : Actifs et passifs d'impôts différés comptabilisés et évalués selon IAS 12.
+    *   **Avantages du personnel** : Passifs ou actifs liés aux avantages du personnel selon IAS 19.
+    *   **Actifs compensatoires** : Comptabilisés en même temps et sur la même base que l'élément couvert par la garantie.
+    *   **Droits recouvrés** : Évalués sur la base de la durée de vie résiduelle du contrat correspondant.
+    *   **Transactions dont le paiement est fondé sur des actions** : Évalués selon IFRS 2 (valeur basée sur le marché).
+    *   **Actifs détenus en vue de la vente** : Évalués selon IFRS 5 à la juste valeur diminuée des coûts de vente.
+*   **Goodwill ou profit résultant d’une acquisition à des conditions avantageuses** : Le goodwill est l'excédent du total (contrepartie transférée, participations ne donnant pas le contrôle, titres de capitaux propres précédemment détenus) sur l'actif net identifiable acquis. Un profit résultant d'une acquisition à des conditions avantageuses est comptabilisé en résultat net si l'actif net identifiable excède la contrepartie totale.
+*   **Contrepartie transférée** : Évaluée à la juste valeur à la date d'acquisition. La contrepartie éventuelle est également évaluée à sa juste valeur à la date d'acquisition.
+*   **Regroupement d'entreprises réalisé par étapes** : Les titres de capitaux propres précédemment détenus par l'acquéreur dans l'entreprise acquise sont réévalués à leur juste valeur à la date d'acquisition, avec profit ou perte en résultat net ou autres éléments du résultat global.
+*   **Période d'évaluation** : Si la comptabilisation initiale est inachevée, des montants provisoires sont utilisés et ajustés rétrospectivement pendant la période d'évaluation (max. un an) pour refléter de nouvelles informations sur les faits et circonstances à la date d'acquisition.
+*   **Transactions séparées** : Les transactions distinctes de l'acquisition (ex: règlement de relations préexistantes, rémunération de services futurs, frais d'acquisition) sont comptabilisées selon les IFRS concernées, et non comme partie de la contrepartie transférée. Les frais connexes à l'acquisition sont généralement comptabilisés en charges.
+
+**Évaluation et comptabilisation ultérieures**
+L'évaluation et la comptabilisation ultérieures se font généralement selon les autres IFRS applicables, sauf pour les droits recouvrés, les passifs éventuels, les actifs compensatoires et la contrepartie éventuelle, pour lesquels IFRS 3 fournit des indications spécifiques.
+
+**Informations à fournir**
+L'acquéreur doit fournir des informations permettant d'évaluer la nature et l'effet financier des regroupements d'entreprises. Cela inclut le nom de l'entreprise acquise, la date d'acquisition, les motivations, une description qualitative du goodwill, la juste valeur de la contrepartie transférée, les montants comptabilisés des actifs et passifs, les passifs éventuels, les coûts connexes à l'acquisition, et les profits/pertes d'acquisitions à des conditions avantageuses. Pour les regroupements significatifs, des informations pro forma sur le chiffre d'affaires et le résultat net de l'entité regroupée sont requises. Des rapprochements du goodwill et des changements dans les montants de contrepartie éventuelle et passifs éventuels sont aussi nécessaires.
+
+**Date d'entrée en vigueur et amendements**
+IFRS 3 est applicable pour les regroupements d'entreprises pour lesquels la date d'acquisition est le 1er juillet 2009 ou une date postérieure. De nombreux amendements ont été introduits au fil des ans.
+
+### **IFRS 4 : Contrats d’assurance**
+
+**Objectif**
+IFRS 4 spécifie l'information financière pour les contrats d'assurance émis par un assureur, en imposant des améliorations limitées à la comptabilisation et en exigeant des informations qui identifient et expliquent les montants liés aux contrats d'assurance et aident les utilisateurs à comprendre le montant, l'échéance et le degré d'incertitude des flux de trésorerie futurs.
+
+**Champ d’application**
+La norme s'applique aux contrats d'assurance (y compris les traités de réassurance) émis par l'entité et aux traités de réassurance détenus. Elle s'applique également aux instruments financiers avec un élément de participation discrétionnaire [517(b)].
+IFRS 4 ne s'applique pas aux garanties liées aux produits directement émises par un fabricant/distributeur, aux actifs/passifs liés aux avantages du personnel, aux droits/obligations dépendant de l'utilisation future d'un élément non financier (sauf garantie de valeur résiduelle du preneur), aux contreparties éventuelles en regroupements d'entreprises, ou aux contrats d'assurance directe détenus par l'entité (sauf traités de réassurance détenus par une cédante). Pour les contrats de garantie financière, l'émetteur peut choisir d'appliquer IAS 32/IFRS 9 ou IFRS 4 [520(d)].
+
+**Dérivés incorporés**
+IFRS 9 exige de séparer certains dérivés incorporés de leur contrat hôte, mais pas si le dérivé incorporé est lui-même un contrat d'assurance. Un assureur n'est pas tenu de séparer l'option de rachat d'un contrat d'assurance pour un montant fixe, même si le prix d'exercice diffère de la valeur comptable du passif d'assurance hôte.
+Si un contrat contient une composante dépôt, l'assureur peut la décomposer si ses méthodes comptables ne l'obligent pas à comptabiliser l'ensemble des obligations et droits de cette composante. En cas de décomposition, IFRS 4 s'applique à la composante assurance et IFRS 9 à la composante dépôt.
+
+**Comptabilisation et évaluation**
+*   **Exemption temporaire à l'application d'autres IFRS** : IFRS 4 exempte un assureur d'appliquer certains critères d'IAS 8 (paragraphes 11 et 12) pour l'élaboration de méthodes comptables concernant les contrats d'assurance émis et les traités de réassurance détenus. Cependant, l'assureur doit respecter certaines implications d'IAS 8, telles que ne pas comptabiliser de provisions pour demandes futures non encore souscrites, effectuer le test de suffisance du passif, sortir un passif d'assurance uniquement s'il est éteint, ne pas compenser actifs de réassurance et passifs d'assurance, et examiner la dépréciation des actifs de réassurance.
+*   **Test de suffisance du passif** : L'assureur doit évaluer si ses passifs d'assurance comptabilisés sont suffisants, en utilisant les estimations actuelles de flux de trésorerie futurs. Toute insuffisance doit être comptabilisée en résultat net. Des dispositions minimales pour ce test sont données.
+*   **Dépréciation d'actifs au titre des cessions en réassurance** : Un actif de réassurance est déprécié si des preuves tangibles, suite à un événement après la comptabilisation initiale, indiquent que la cédante ne recevra pas tous les montants dus, et que cet événement a un impact évaluable de façon fiable.
+*   **Changements de méthodes comptables** : Un assureur peut changer ses méthodes comptables pour les contrats d'assurance si cela rend ses états financiers plus pertinents et pas moins fiables, ou plus fiables et pas moins pertinents. Il ne doit pas intégrer de marges d'investissement futures dans l'évaluation des passifs d'assurance, sauf si d'autres changements de méthodes augmentent suffisamment la pertinence et la fiabilité.
+*   **Comptabilité reflet (Mirror accounting)** : Un assureur est autorisé, mais non tenu, à changer ses méthodes comptables pour que les plus-values ou moins-values latentes sur les actifs affectent l'évaluation des passifs d'assurance (ou coûts d'acquisition différés ou immobilisations incorporelles) de la même manière que les plus-values/moins-values réalisées.
+*   **Contrats d'assurance acquis lors d'un regroupement d'entreprises ou d'un transfert de portefeuille** : L'assureur doit évaluer à leur juste valeur les passifs et actifs d'assurance repris/acquis. Il peut utiliser une présentation qui scinde la juste valeur en un passif évalué selon ses méthodes et une immobilisation incorporelle. Ces immobilisations incorporelles sont exclues du champ d'application d'IAS 36 et IAS 38.
+
+**Éléments de participation discrétionnaire**
+*   **Dans des contrats d'assurance** : L'émetteur peut, mais n'est pas tenu de, comptabiliser l'élément garanti séparément de l'élément de participation discrétionnaire. Si non séparé, le contrat est classé comme un passif. Les primes peuvent être comptabilisées en produits sans séparer la part liée aux capitaux propres. La quote-part du résultat net attribuable à la composante capitaux propres est une répartition du résultat net, non une charge/produit.
+*   **Dans des instruments financiers** : Les dispositions du paragraphe 34 s'appliquent. Si tout l'élément est classé comme passif, le test de suffisance du passif est appliqué. Si une partie est classée en capitaux propres, le passif comptabilisé ne doit pas être inférieur au montant résultant d'IFRS 9 pour l'élément garanti.
+
+**Informations à fournir**
+L'assureur doit fournir des informations qui identifient et expliquent les montants générés par les contrats d'assurance dans ses états financiers (méthodes comptables, actifs/passifs/produits/charges, procédure de détermination des hypothèses clés, effet des variations d'hypothèses, rapprochements). Des informations sur la nature et l'ampleur des risques découlant des contrats d'assurance sont également requises (objectifs de gestion des risques, politiques, procédures, informations sur le risque d'assurance, risque de crédit, liquidité, marché, analyse de sensibilité).
+
+**Date d'entrée en vigueur et dispositions transitoires**
+IFRS 4 est applicable pour les exercices ouverts à compter du 1er janvier 2005. Les dispositions transitoires s'appliquent aux entités qui appliquent déjà les IFRS et aux nouveaux adoptants. Une nouvelle désignation des actifs financiers est permise, mais non imposée, pour les assureurs qui changent leurs méthodes comptables concernant les passifs d'assurance.
+
+### **IFRS 5 : Actifs non courants détenus en vue de la vente et activités abandonnées**
+
+**Objectif**
+IFRS 5 spécifie la comptabilisation d'actifs détenus en vue de la vente et la présentation et les informations à fournir sur les activités abandonnées. Elle impose l'évaluation au plus faible de la valeur comptable et de la juste valeur diminuée des coûts de vente, l'arrêt de l'amortissement, et une présentation séparée des actifs et des résultats des activités abandonnées.
+
+**Champ d’application**
+Les dispositions de classement et de présentation s'appliquent à tous les actifs non courants comptabilisés et aux groupes destinés à être cédés. Les dispositions d'évaluation s'appliquent à ces mêmes éléments, à l'exception de certains actifs déjà couverts par d'autres IFRS (actifs d'impôt différé, avantages du personnel, instruments financiers IFRS 9, immeubles de placement IAS 40, agriculture IAS 41, droits contractuels d'assurance IFRS 4). La norme s'applique également aux actifs non courants (ou groupes) classés comme détenus en vue de leur distribution aux propriétaires.
+
+**Classement d'actifs non courants (ou groupes destinés à être cédés) comme détenus en vue de la vente ou détenus en vue d’une distribution aux propriétaires**
+*   Un actif non courant (ou groupe) est classé comme **détenu en vue de la vente** si sa valeur comptable est recouvrée principalement par une transaction de vente plutôt que par l'utilisation continue.
+*   Critères de classement : L'actif doit être disponible pour une vente immédiate dans son état actuel, et la vente doit être **hautement probable**. Pour qu'une vente soit hautement probable, la direction doit s'être engagée dans un plan, la recherche d'un acquéreur doit être active, la vente doit être probable dans l'année (sauf exceptions), le prix de vente doit être raisonnable, et les actions nécessaires pour finaliser le plan doivent indiquer qu'il est peu probable que des changements importants soient apportés au plan.
+*   Un actif non courant (ou groupe) est classé comme **détenu en vue d'une distribution aux propriétaires** lorsque l'entité s'est engagée à le distribuer et qu'il est disponible pour distribution immédiate, et que la distribution est hautement probable.
+
+**Évaluation**
+*   Les actifs non courants (ou groupes) classés comme détenus en vue de la vente sont évalués au **plus faible de leur valeur comptable et de leur juste valeur diminuée des coûts de la vente**.
+*   Les actifs non courants (ou groupes) classés comme détenus en vue d'une distribution aux propriétaires sont évalués au plus faible de leur valeur comptable et de leur juste valeur diminuée des coûts de distribution.
+*   L'amortissement cesse lorsque l'actif non courant est classé comme détenu en vue de la vente.
+
+**Comptabilisation des pertes de valeur et des reprises**
+Une perte de valeur est comptabilisée pour toute réduction initiale ou ultérieure de l'actif à la juste valeur diminuée des coûts de la vente. Un profit est comptabilisé pour toute augmentation ultérieure, mais sans excéder le cumul des pertes de valeur comptabilisées précédemment.
+
+**Modifications apportées à un plan de vente**
+Si l'entité décide de ne plus vendre un actif (ou groupe), il cesse d'être classé comme détenu en vue de la vente et est évalué au plus faible de sa valeur comptable avant classement ajustée (amortissement, réévaluation) et sa valeur recouvrable à la date de la décision.
+
+**Présentation et informations à fournir**
+*   Les actifs et passifs des groupes destinés à être cédés doivent être présentés séparément dans l'état de la situation financière.
+*   Les résultats des **activités abandonnées** doivent être présentés séparément dans l'état du résultat global. Une activité abandonnée est une composante qui représente une ligne d'activité ou une région géographique principale et distincte, fait partie d'un plan unique de séparation, ou est une filiale acquise exclusivement pour la revente.
+*   Un montant unique doit être présenté dans l'état du résultat global, comprenant le résultat net après impôt des activités abandonnées et le profit/perte après impôt de leur évaluation ou cession. Une analyse détaillée de ce montant est requise.
+*   Des informations supplémentaires sont requises dans les notes, incluant une description de l'actif/groupe, les faits et circonstances de la cession attendue, le profit/perte comptabilisé, et le secteur à présenter.
+
+**Date d'entrée en vigueur et amendements**
+IFRS 5 est applicable pour les exercices ouverts à compter du 1er janvier 2007.
+
+### **IFRS 6 : Prospection et évaluation de ressources minérales**
+
+**Objectif**
+IFRS 6 spécifie l'information financière relative à la prospection et l'évaluation de ressources minérales. Elle impose des améliorations limitées aux pratiques comptables existantes, des tests de dépréciation pour les actifs de prospection et d'évaluation, et des informations qui identifient et expliquent les montants liés à ces activités.
+
+**Champ d’application**
+La norme s'applique aux dépenses de prospection et d'évaluation, qui sont les dépenses engagées avant que la faisabilité technique et la viabilité commerciale de l'extraction d'une ressource minérale soient démontrables.
+
+**Comptabilisation des actifs de prospection et d’évaluation**
+*   **Exemption temporaire d'IAS 8** : IFRS 6 exempte une entité d'appliquer les paragraphes 11 et 12 d'IAS 8 pour l'élaboration de méthodes comptables concernant la comptabilisation et l'évaluation des actifs de prospection et d'évaluation.
+*   **Évaluation initiale** : Les actifs de prospection et d'évaluation doivent être évalués au coût.
+*   **Éléments du coût** : L'entité doit déterminer une méthode comptable précisant quelles dépenses sont comptabilisées comme actifs de prospection et d'évaluation. Exemples de dépenses incluses: acquisition de droits d'exploration, études topographiques, forages d'exploration, activités d'évaluation, etc..
+*   **Évaluation après comptabilisation** : L'entité doit appliquer soit le modèle du coût, soit le modèle de la réévaluation aux actifs de prospection et d'évaluation. Un changement de méthode comptable n'est permis que s'il rend les états financiers plus pertinents et fiables.
+
+**Reclassement des actifs de prospection et d’évaluation**
+Un actif de prospection et d'évaluation ne doit plus être classé comme tel lorsque la faisabilité technique et la viabilité commerciale de l'extraction sont démontrables. Ces actifs doivent être soumis à un test de dépréciation avant le reclassement.
+
+**Dépréciation**
+*   Les actifs de prospection et d'évaluation doivent être soumis à un **test de dépréciation** lorsque des faits et circonstances suggèrent que leur valeur comptable peut excéder leur valeur recouvrable.
+*   L'entité doit évaluer, présenter et fournir des informations sur toute perte de valeur selon IAS 36, sauf dispositions contraires d'IFRS 6.
+*   Des faits et circonstances spécifiques (ex: expiration des droits d'exploration, découverte insuffisante, arrêt des activités) indiquent la nécessité d'un test de dépréciation. Le test de dépréciation peut être effectué au niveau de l'unité génératrice de trésorerie ou à un niveau plus élevé.
+
+**Informations à fournir**
+L'entité doit fournir des informations qui identifient et expliquent les montants comptabilisés dans ses états financiers générés par la prospection et l'évaluation de ressources minérales. Cela inclut ses méthodes comptables et les montants d'actifs, passifs, produits, charges et flux de trésorerie liés. Les actifs de prospection et d'évaluation doivent être traités comme une classe d'actifs distincte et les informations d'IAS 16 ou IAS 38 doivent être fournies.
+
+### **IFRS 7 : Instruments financiers : Informations à fournir**
+
+**Objectif**
+L'objectif d'IFRS 7 est d'imposer aux entités de fournir des informations dans leurs états financiers pour permettre aux utilisateurs d'évaluer l'importance des instruments financiers au regard de la situation et de la performance financières de l'entité, ainsi que la nature et l'ampleur des risques découlant de ces instruments et la façon dont l'entité gère ces risques.
+
+**Champ d’application**
+IFRS 7 s'applique à tous les types d'instruments financiers, qu'ils soient comptabilisés ou non, à l'exception de certains éléments:
+*   Intérêts détenus dans des filiales, entreprises associées ou coentreprises (sauf si comptabilisés selon IFRS 9 ou si le dérivé lié ne répond pas à la définition d'un instrument de capitaux propres IAS 32).
+*   Droits et obligations liés aux avantages du personnel (IAS 19).
+*   Contrats d'assurance (IFRS 4), sauf les dérivés incorporés si IFRS 9 exige une séparation, ou les contrats de garantie financière si comptabilisés selon IFRS 9.
+*   Instruments financiers, contrats et obligations liés aux transactions dont le paiement est fondé sur des actions (IFRS 2), sauf les contrats entrant dans le champ d'application d'IFRS 9.
+*   Instruments classés comme instruments de capitaux propres selon IAS 32.
+Elle s'applique également aux contrats d'achat ou de vente d'un élément non financier qui entrent dans le champ d'application d'IFRS 9.
+
+**Importance des instruments financiers**
+*   **État de la situation financière** :
+    *   **Classes d'actifs financiers et de passifs financiers** : La valeur comptable de chaque classe (selon IFRS 9) doit être indiquée (actifs financiers à la juste valeur par le biais du résultat net/autres éléments du résultat global, passifs financiers à la juste valeur par le biais du résultat net, actifs/passifs financiers au coût amorti).
+    *   **Instruments à la juste valeur par le biais du résultat net** : Pour les instruments désignés comme tels, l'exposition maximale au risque de crédit et la variation de la juste valeur attribuable au risque de crédit doivent être divulguées.
+    *   **Reclassement** : Des informations sur tout reclassement d'actifs financiers selon IFRS 9 sont requises (date, explication du changement de modèle économique, montants reclassés).
+    *   **Compensation d'actifs et de passifs financiers** : Des informations quantitatives détaillées sur les actifs et passifs financiers compensés ou faisant l'objet d'accords de compensation exécutoires (montants bruts, compensés, nets, instruments de garantie) sont requises.
+    *   **Actifs affectés en garantie** : La valeur comptable des actifs financiers affectés en garantie et les termes/conditions sont divulgués.
+    *   **Défaillances et manquements** : Informations sur les défaillances de prêts et les manquements aux conditions de contrats de prêt.
+*   **État du résultat global** :
+    *   **Éléments de produits, charges, profits ou pertes** : Les profits nets ou pertes nettes par catégorie d'instruments financiers (FVPL, coût amorti, FVOCI), les produits et charges d'intérêt (méthode du taux d'intérêt effectif), les produits et charges de commissions, les produits d'intérêt sur actifs dépréciés, et les pertes de valeur par catégorie d'actif financier doivent être indiqués. Une analyse du profit/perte lié à la décomptabilisation d'actifs au coût amorti est aussi requise.
+
+**Autres informations à fournir**
+*   **Méthodes comptables** : Informations sur les bases d'évaluation et les méthodes comptables utilisées [682, B5].
+*   **Comptabilité de couverture** : Des informations complètes sur la stratégie de gestion des risques, l'incidence des opérations de couverture et l'effet sur les états financiers sont requises. Cela inclut une description des instruments de couverture, des éléments couverts, des sources d'inefficacité, et des tableaux des valeurs comptables et profits/pertes de couverture.
+*   **Juste valeur** : Pour chaque catégorie d'actifs et passifs financiers, la juste valeur doit être indiquée pour comparaison avec la valeur comptable. Des informations sont requises lorsque la juste valeur initiale n'est pas attestée par un cours de marché observable ou une technique d'évaluation utilisant uniquement des données observables (méthode d'ajustement de la différence, solde de la différence, raisons). Des exceptions à l'obligation de divulgation de la juste valeur existent (ex: créances/dettes à court terme, éléments de participation discrétionnaire si non évaluables fiablement).
+*   **Nature et ampleur des risques découlant des instruments financiers** : Informations sur le risque de crédit, le risque de liquidité et le risque de marché.
+    *   **Informations qualitatives** : Exposures au risque, objectifs de gestion du risque, politiques et procédures.
+    *   **Informations quantitatives** : Données sur l'exposition au risque à la date de clôture, basées sur les informations internes fournies aux principaux dirigeants.
+    *   **Risque de crédit** : Exposition maximale au risque de crédit, description des garanties et rehaussements de crédit, qualité du crédit des actifs non en souffrance/non dépréciés, analyse de l'âge des actifs en souffrance mais non dépréciés, et analyse des actifs dépréciés.
+    *   **Risque de liquidité** : Analyse des échéances des passifs financiers non dérivés et dérivés, et description de la gestion du risque de liquidité.
+    *   **Risque de marché** : Analyse de sensibilité pour chaque type de risque de marché (taux d'intérêt, change, autre risque de prix) montrant l'effet des variations raisonnablement possibles des variables pertinentes sur le résultat net et les capitaux propres.
+*   **Transferts d'actifs financiers** : Informations sur les actifs transférés non décomptabilisés et les liens conservés avec les actifs transférés décomptabilisés. Cela inclut la nature des actifs, des risques/avantages, la relation avec les passifs associés, la juste valeur des actifs/passifs liés, l'exposition maximale au risque de perte, et les sorties de trésorerie non actualisées. Des informations sur le profit/perte de décomptabilisation et les produits/charges liés aux liens conservés sont également requises.
+
+**Date d'entrée en vigueur et dispositions transitoires**
+IFRS 7 est applicable pour les exercices ouverts à compter du 1er janvier 2007. Des dispositions transitoires spécifiques existent pour les informations comparatives et l'application d'IFRS 9.
+
+### **IFRS 8 : Secteurs opérationnels**
+
+**Principe fondamental**
+IFRS 8 exige qu'une entité fournisse des informations permettant aux utilisateurs de ses états financiers d'évaluer la nature et les effets financiers des activités auxquelles elle se livre et des environnements économiques dans lesquels elle exerce ces activités.
+
+**Champ d’application**
+La norme s'applique aux états financiers individuels d'une entité dont les instruments d'emprunt ou de capitaux propres sont négociés sur un marché public, ou qui dépose (ou est en voie de déposer) ses états financiers auprès d'une autorité de réglementation des valeurs mobilières en vue d'émettre des instruments sur un marché public. Si un rapport financier inclut des états financiers consolidés d'une société mère soumise à IFRS 8 et les états financiers individuels de cette société mère, l'information sectorielle n'est exigée que dans les états financiers consolidés.
+
+**Secteurs opérationnels**
+Un **secteur opérationnel** est une composante d'une entité qui:
+*   Exerce des activités génératrices de produits des activités ordinaires et d'engendrant des charges.
+*   Dont les résultats d'exploitation sont régulièrement examinés par le **principal décideur opérationnel** de l'entité pour prendre des décisions concernant les ressources à affecter à ce secteur et évaluer sa performance. Le principal décideur opérationnel identifie une fonction, pas un titre, qui consiste à affecter des ressources et évaluer la performance.
+*   Pour laquelle des informations financières distinctes sont disponibles.
+IFRS 8 adopte l'approche « management approach », selon laquelle l'information sectorielle est basée sur les informations utilisées en interne par la direction.
+
+**Secteurs à présenter**
+L'entité doit présenter séparément les informations relatives à chaque secteur opérationnel qui atteint les seuils quantitatifs suivants:
+*   **Produits des activités ordinaires** : Représentent au moins 10 % des produits des activités ordinaires cumulés de tous les secteurs (internes et externes) [830(a)].
+*   **Résultat net (profit ou perte)** : La valeur absolue représente au moins 10 % du plus élevé des bénéfices cumulés des secteurs non en perte ou des pertes cumulées des secteurs en perte [830(b)].
+*   **Actifs** : Représentent au moins 10 % des actifs cumulés de tous les secteurs opérationnels [830(c)].
+Des secteurs ne remplissant pas ces seuils peuvent être présentés s'ils sont jugés utiles. Des secteurs peuvent être regroupés s'ils ont des **caractéristiques économiques similaires** et des similitudes concernant la nature des produits/services, les procédés de fabrication, le type de clients, les méthodes de distribution, et l'environnement réglementaire.
+Si le total des produits externes des secteurs à présenter est inférieur à 75 % des produits externes totaux de l'entité, des secteurs supplémentaires doivent être identifiés comme à présenter jusqu'à atteindre ce seuil.
+
+**Informations à fournir**
+L'entité doit fournir des informations pour chaque période pour laquelle un état du résultat global est présenté.
+*   **Informations générales** : Facteurs utilisés pour identifier les secteurs, jugements de regroupement, types de produits et services.
+*   **Informations relatives au résultat net, aux actifs et aux passifs** :
+    *   Un indicateur du résultat net pour chaque secteur à présenter.
+    *   Un indicateur du total des actifs et passifs de chaque secteur, si ces montants sont régulièrement fournis au principal décideur opérationnel.
+    *   Des informations supplémentaires sur les produits externes et intersectoriels, les produits et charges d'intérêts, les amortissements, les éléments significatifs de produits et charges, la quote-part du résultat des entreprises associées/coentreprises, la charge/produit d'impôt et les éléments significatifs sans contrepartie en trésorerie, si ces montants sont inclus dans l'indicateur du résultat net sectoriel ou régulièrement fournis au principal décideur opérationnel.
+    *   La valeur des participations dans les entreprises associées/coentreprises, et les montants des acquisitions d'actifs non courants (sauf instruments financiers, impôts différés, avantages du personnel, droits d'assurance).
+*   **Évaluation** : Les montants des éléments sectoriels présentés doivent correspondre aux indicateurs examinés par le principal décideur opérationnel. L'entité doit expliquer les évaluations, y compris les conventions comptables pour les transactions intersectorielles et la nature de toute différence entre les évaluations sectorielles et celles de l'entité.
+*   **Rapprochements** : Des rapprochements sont requis entre le total des produits, résultats nets, actifs, passifs et autres éléments significatifs des secteurs à présenter et les montants correspondants au niveau de l'entité. Tous les éléments significatifs de rapprochement doivent être identifiés et décrits séparément.
+*   **Retraitement d'informations présentées antérieurement** : Si la structure organisationnelle change, les informations comparatives des périodes antérieures doivent être retraitées pour refléter la nouvelle composition des secteurs, à moins que le coût ne soit excessif.
+*   **Informations pour l'ensemble de l'entité** (si non déjà fournies par secteur) :
+    *   **Produits et services** : Produits des activités ordinaires provenant de clients externes pour chaque produit ou service (ou groupe).
+    *   **Zones géographiques** : Produits des activités ordinaires provenant de clients externes par pays (pays du siège et pays étrangers significatifs), et actifs non courants par pays.
+    *   **Principaux clients** : Si les produits d'un client externe représentent 10 % ou plus des produits de l'entité, le fait, le montant total et le ou les secteurs concernés doivent être indiqués.
+
+**Date d'entrée en vigueur**
+IFRS 8 est applicable pour les exercices ouverts à compter du 1er janvier 2009.

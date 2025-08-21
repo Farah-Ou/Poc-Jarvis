@@ -1,0 +1,607 @@
+/* LLM Testing Module Styles */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.title {
+  color: #1976d2;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.tabsContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #90caf9;
+}
+
+.tabButton {
+  padding: 0.75rem 1.5rem;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  font-weight: bold;
+  color: #757575;
+  transition: all 0.3s;
+}
+
+.tabButton:hover:not(:disabled) {
+  color: #1976d2;
+}
+
+.tabButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.activeTab {
+  color: #1976d2;
+  border-bottom: 3px solid #1976d2;
+}
+
+.card {
+  background-color: #e3f2fd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: left;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #1976d2;
+}
+
+.inputField {
+  width: 90%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #1565c0;
+}
+
+.button:disabled {
+  background-color: #90caf9;
+  cursor: not-allowed;
+}
+
+.fileInfo {
+  padding: 0.5rem;
+  background-color: #bbdefb;
+  border-radius: 4px;
+  margin-top: 0.25rem;
+}
+
+.filesList {
+  margin-top: 0.5rem;
+}
+
+.fileItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #bbdefb;
+  border-radius: 4px;
+  margin-bottom: 0.25rem;
+}
+
+.removeButton {
+  background: none;
+  border: none;
+  color: #d32f2f;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.message {
+  text-align: center;
+  padding: 1rem;
+  color: #757575;
+}
+
+.successMessage {
+  padding: 0.75rem;
+  background-color: #c8e6c9;
+  color: #2e7d32;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.warningMessage {
+  padding: 0.75rem;
+  background-color: #ffecb3;
+  color: #f57f17;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.errorMessage {
+  padding: 0.75rem;
+  background-color: #ffcdd2;
+  color: #d32f2f;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.criteriaList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.criteriaItem {
+  background-color: #bbdefb;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.description {
+  color: #424242;
+  margin: 0.5rem 0;
+}
+
+.category {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.category span {
+  background-color: #90caf9;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  color: #1565c0;
+  font-weight: bold;
+}
+
+.metricItem {
+  margin-bottom: 0.5rem;
+}
+
+.metricLabel {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  color: #1976d2;
+}
+
+.metricValue {
+  color: #1565c0;
+  font-weight: bold;
+}
+
+.testCasesContainer {
+  margin-top: 1rem;
+}
+
+.tableDescription {
+  color: #757575;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.testCategorySection {
+  margin-top: 2rem;
+}
+
+.testCategorySection h4 {
+  color: #1976d2;
+  border-bottom: 2px solid #90caf9;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.testGroup {
+  background-color: #bbdefb;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.testGroup h5 {
+  color: #1565c0;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.testCase {
+  background-color: white;
+  border-radius: 4px;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.testPrompt, .testResponse, .testRationale {
+  margin-bottom: 0.5rem;
+}
+
+.tableContainer {
+  margin-top: 1.5rem;
+}
+
+.downloadSection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.downloadButton {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  background-color: #1976d2;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.downloadButton:hover:not(:disabled) {
+  background-color: #1565c0;
+}
+
+.downloadButton:disabled {
+  background-color: #90caf9;
+  cursor: not-allowed;
+}
+
+.tableWrapper {
+  max-width: 100%;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dataTable {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+  background-color: white;
+  color: #424242;
+  table-layout: fixed;
+}
+
+.dataTable thead {
+  background-color: #1976d2;
+  color: white;
+}
+
+.dataTable th {
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  background-color: #1976d2;
+  z-index: 1;
+  border: 1px solid #90caf9;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dataTable td {
+  padding: 0.75rem;
+  border: 1px solid #e3f2fd;
+  vertical-align: top;
+  word-break: break-word;
+  max-width: 300px;
+}
+
+.dataTable th:nth-child(1),
+.dataTable td:nth-child(1) {
+  width: 15%;
+}
+
+.dataTable th:nth-child(2),
+.dataTable td:nth-child(2) {
+  width: 25%;
+}
+
+.dataTable th:nth-child(3),
+.dataTable td:nth-child(3) {
+  width: 25%;
+}
+
+.scrollableCell {
+  max-height: 100px;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+  position: relative;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.scrollableCell::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollableCell::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 2px;
+}
+
+.scrollableCell::-webkit-scrollbar-thumb {
+  background: #90caf9;
+  border-radius: 2px;
+}
+
+.scrollableCell::-webkit-scrollbar-thumb:hover {
+  background: #1976d2;
+}
+
+.dataTable tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.dataTable tbody tr:hover {
+  background-color: #e3f2fd;
+}
+
+.loadingIndicator {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid white;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  background-color: #ffcdd2;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.errorContainer h3 {
+  color: #d32f2f;
+  margin-top: 0;
+}
+
+.retryButton {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.retryButton:hover {
+  background-color: #b71c1c;
+}
+
+.selectField {
+  width: 90%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.checkboxGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.statusRunning,
+.statusCompleted,
+.statusError {
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.statusRunning {
+  background-color: #e3f2fd;
+}
+
+.statusCompleted {
+  background-color: #c8e6c9;
+}
+
+.statusError {
+  background-color: #ffcdd2;
+}
+
+.spinner {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border: 4px solid #90caf9;
+  border-top: 4px solid #1976d2;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+.summaryStats {
+  margin: 1.5rem 0;
+  text-align: left;
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.statItem {
+  padding: 0.75rem;
+  background-color: #e3f2fd;
+  border-radius: 4px;
+}
+
+.statLabel {
+  display: block;
+  color: #757575;
+  margin-bottom: 0.25rem;
+  font-size: 0.9rem;
+}
+
+.statValue {
+  display: block;
+  color: #1976d2;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.dashboardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.dashboardCard {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboardCard h5 {
+  color: #757575;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.bigStat {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1976d2;
+  margin-bottom: 0.5rem;
+}
+
+.statDetail {
+  color: #757575;
+  font-size: 0.9rem;
+}
+
+.categoryTabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.categoryTab {
+  padding: 0.5rem 1rem;
+  background-color: #e3f2fd;
+  border: 1px solid #90caf9;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #1976d2;
+  transition: all 0.3s;
+}
+
+.categoryTab:hover {
+  background-color: #bbdefb;
+}
+
+.categorySection {
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.passedRow {
+  background-color: rgba(200, 230, 201, 0.3) !important;
+}
+
+.failedRow {
+  background-color: rgba(255, 205, 210, 0.3) !important;
+}
+
+/* Metrics table: override column widths for better layout */
+.metricsTable th:nth-child(1), .metricsTable td:nth-child(1) {
+  width: 8%;
+}
+.metricsTable th:nth-child(2), .metricsTable td:nth-child(2) {
+  width: 8%;
+}
+.metricsTable th:nth-child(3), .metricsTable td:nth-child(3) {
+  width: 12%;
+}
+.metricsTable th:nth-child(4), .metricsTable td:nth-child(4) {
+  width: 12%;
+}
+.metricsTable th:nth-child(5), .metricsTable td:nth-child(5) {
+  width: 12%;
+}
+.metricsTable th:nth-child(n+6), .metricsTable td:nth-child(n+6) {
+  width: auto;
+} 

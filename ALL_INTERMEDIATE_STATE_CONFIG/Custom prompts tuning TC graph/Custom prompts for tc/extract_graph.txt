@@ -1,0 +1,429 @@
+
+-Goal-
+Given a text document that is potentially relevant to this activity and a list of entity types, identify all entities of those types from the text and all relationships among the identified entities.
+Preferably maketypes of entities as such :
+- entities that represent a Test Case title
+- entities that represent Test steps related to a test title / scenario
+- Creation and update Dates of the Test Case
+
+Discard the Test Data used as well as Jira ticket names and xray related information
+capture relationships between test cases as well, especially the ones that are preconditions for others, which means, in order for them to occur, za previous test case needs to be accomplished beforehand, 
+for example login and authentication functions are always preconditions to other functions.
+
+Test Types could include : Functional Tests, Non-functioanl, End-to-End Tests, Non Regression Tests
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized
+- entity_type: One of the following types: [{entity_types}]
+- entity_description: Comprehensive description of the entity's attributes and activities
+However, for entities that represent Test steps, keep the test steps integrally the same, don't summarize, don't describe, don't change the content at all. Keep the order of the test steps as well as content.
+
+Format each entity as ("entity"{tuple_delimiter}<entity_name>{tuple_delimiter}<entity_type>{tuple_delimiter}<entity_description>)
+ 
+2. From the entities identified in step 1, identify all pairs of (source_entity, target_entity) that are *clearly related* to each other.
+For each pair of related entities, extract the following information:
+- source_entity: name of the source entity, as identified in step 1
+- target_entity: name of the target entity, as identified in step 1
+- relationship_description: explanation as to why you think the source entity and the target entity are related to each other
+- relationship_strength: a numeric score indicating strength of the relationship between the source entity and target entity
+ Format each relationship as ("relationship"{tuple_delimiter}<source_entity>{tuple_delimiter}<target_entity>{tuple_delimiter}<relationship_description>{tuple_delimiter}<relationship_strength>)
+ 
+3. Return output in English as a single list of all the entities and relationships identified in steps 1 and 2. Use **{record_delimiter}** as the list delimiter.
+ 
+4. When finished, output {completion_delimiter}
+ 
+######################
+-Examples-
+######################
+Example 1:
+Entity_types: TEST CASE TITLE, TEST STEPS, TEST CREATION DATE, TEST latest UPDATE DATE, TEST TYPE
+Text:
+User Login 
+Given user is on the main page
+When user enters his username <username>
+And user enter his password <password>
+Then he is redirected to an email verification page
+And he enters a code received via email
+Then he is logged in successfully
+
+Test Type : Functional Test
+Created on 2025-06-07T20:23:25.482000+01:00
+updated on 2025-07-07T20:23:25.482000+01:00
+
+Add candidate 
+Given Admin is logged in 
+And Admin is on PIM page
+When he clicks the "create" button
+and he enters the candidate name <name>
+And he adds the candidate target job <targetJob>
+And he clicks "confirm"
+Then the candidate is added to the dahsboard
+
+Test Type : Functional Test
+Created on 2025-03-07T20:23:25.482000+01:00
+updated on 2025-03-07T20:23:25.482000+01:00
+
+######################
+Output:
+("entity"{tuple_delimiter}User Login{tuple_delimiter}TEST CASE TITLE{tuple_delimiter}The user login functionality enables a user to login to the application page through email verification)
+{record_delimiter}
+("entity"{tuple_delimiter}
+Given user is on the main page
+When user enters his username <username>
+And user enter his password <password>
+Then he is redirected to an email verification page
+And he enters a code received via email
+Then he is logged in successfully
+{tuple_delimiter}TEST STEPS{tuple_delimiter}User needs to enter crednetials and use an email sent code to verify his account and log in successfully )
+{record_delimiter}
+
+("entity"{tuple_delimiter}Created on 2025-06-07T20:23:25.482000+01:00{tuple_delimiter}TEST CREATION DATE{tuple_delimiter}The login test creation date)
+{record_delimiter}
+("entity"{tuple_delimiter}updated on 2025-07-07T20:23:25.482000+01:00{tuple_delimiter}TEST latest UPDATE DATE{tuple_delimiter}The login latest test update date)
+{record_delimiter}
+
+("relationship"{tuple_delimiter}Information relates to Test{tuple_delimiter}{tuple_delimiter}These represent the substeps of the test case that relate to the test title, also the test creation and update dates{tuple_delimiter}9)
+{completion_delimiter}
+
+("entity"{tuple_delimiter}Add candidate{tuple_delimiter}TEST CASE TITLE{tuple_delimiter}The Add candidate functionality enables an admin of an hr application to Add a candidate to the process of candidates of the enterprise)
+{record_delimiter}
+
+("relationship"{tuple_delimiter}Login test case relates to adding candidate test case{tuple_delimiter}{tuple_delimiter}Add candidate functionality requires the login functionality, {tuple_delimiter}9)
+{completion_delimiter}
+
+######################
+Example 2
+
+Text:
+
+Candidate process in the platform 
+Test type : End to End Test
+
+Given I am on the application landing page <url>
+When I enter <username> in the username field
+And I enter  <password> in the password field
+And I click the "Login" button
+Then I get redirected to the landing page in the "Dashboard" section
+Given The administrator is logged in
+When The administrator clicks on the "Recruitement" menu
+Then he should see a search "candidates" section
+and he should see an Add section containing "Records"
+When he scrolls to the "Records" section containing "+ Add" button
+And he clicks on the "Add" button to add a candidate
+Then he gets redirected to a "Add Candidate" page
+And The administrator enters the first name <First Name>
+And The administrator enters the last name <Last Name>
+And The administrator enters the email <Email>
+And The administrator enters the Vacancy <Job Title>
+And The administrator clicks on the "Save" button
+Then A confirmation message appears indicating that the candidate was successfully added : <Message>
+Given The administrator is logged in
+When The administrator clicks on the "Recruitment" menu
+And The administrator scrolls down
+When The admin checks a candidate of name <FullName>
+Then the admin should see the Application Status <AppStatus>
+And the admin should see the Hiring Manager name <HiringManager>
+And the admin should see the  Application Date <AppDate>
+Given the admin is on the Candidate profile page of  name <FullName>
+And the candidate application staus is "Application Initialized"
+When he scrolls to the "Application Stage" section
+And he clicks the "Shortlist" button
+Then he gets redirected to a "Shortlist candidate" page
+And he sees the candidate Data greyed
+When he clicks the "Save" button
+Then he sees a message confirming the success of operation <Message>
+Given the admin is on the Candidate profile page of <FullName>
+And the candidate application staus is "Shortlisted"
+When he scrolls to the "Application Stage" section
+And he clicks the "schedule Interview" button
+Then he gets redirected to a "schedule Interview" page
+And he enters Interview Title field with <Interview Title>
+And he enters the Interviewer Name field <InterviewerName>
+And he enters the Interview Date field <Interview Date>
+And he enters the Interview Time field <Interview Time>
+And he clicks the "Save" button
+Then he sees the message <Message>
+
+
+Schedule interview for a candidate
+Functional Test
+
+Given the admin is on the Candidate profile page of <FullName>
+And the candidate application staus is "Shortlisted"
+When he scrolls to the "Application Stage" section
+And he clicks the "schedule Interview" button
+Then he gets redirected to a "schedule Interview" page
+And he enters Interview Title field with <Interview Title>
+And he enters the Interviewer Name field <InterviewerName>
+And he enters the Interview Date field <Interview Date>
+And he enters the Interview Time field <Interview Time>
+And he clicks the "Save" button
+Then he sees a the message <Message>
+
+Shortlist candidate
+Functional Test
+
+Given the admin is on the Candidate profile page of  name <FullName>
+And the candidate application staus is "Application Initialized"
+When he scrolls to the "Application Stage" section
+And he clicks the "Shortlist" button
+Then he gets redirected to a "Shortlist candidate" page
+And he sees the candidate Data greyed
+When he clicks the "Save" button
+Then he sees a message confirming the success of operation <Message>
+
+Verify candidate existence in main page
+Functional Test
+
+Given The administrator is logged in
+When The administrator clicks on the "Recruitment" menu
+And The administrator scrolls down
+When The admin checks a candidate of name <FullName>
+Then the admin should see the Application Status <AppStatus>
+And the admin should see the Hiring Manager name <HiringManager>
+And the admin should see the  Application Date <AppDate>
+
+Add Candidate
+Functional Test
+
+Given The administrator is logged in
+When The administrator clicks on the "Recruitement" menu
+Then he should see a search "candidates" section
+and he should see an Add section containing "Records"
+When he scrolls to the "Records" section containing "+ Add" button
+And he clicks on the "Add" button to add a candidate
+Then he gets redirected to a "Add Candidate" page
+And The administrator enters the first name <First Name>
+And The administrator enters the last name <Last Name>
+And The administrator enters the email <Email>
+And The administrator enters the Vacancy <Job Title>
+And The administrator clicks on the "Save" button
+Then A confirmation message appears indicating that the candidate was successfully added : <Message>
+
+Login
+Functional Test
+
+Given I am on the application landing page <url>
+When I enter <username> in the username field
+And I enter  <password> in the password field
+And I click the "Login" button
+Then I get redirected to the landing page in the "Dashboard" section
+
+######################
+Output:
+
+
+("entity"{tuple_delimiter}Candidate process in the platform{tuple_delimiter}TEST CASE TITLE{tuple_delimiter}A test case describing the entire process a candidate goes through in the platform from his initial addition to the list of candidates to his interview process)
+{record_delimiter}
+
+("entity"{tuple_delimiter}Shortlist Candidate{tuple_delimiter}TEST CASE TITLE{tuple_delimiter}Describes the act of Shortlisting a Candidate)
+{record_delimiter}
+
+("entity"{tuple_delimiter}Schedule interview for a candidate{tuple_delimiter}TEST CASE TITLE{tuple_delimiter}Describes the act of Scheduling interview for a candidate)
+{record_delimiter}
+
+("entity"{tuple_delimiter}Verify candidate existence in main page{tuple_delimiter}TEST CASE TITLE{tuple_delimiter}Describes the act of Verifying candidate existence in main page )
+{record_delimiter}
+
+("entity"{tuple_delimiter}Add Candidate{tuple_delimiter}TEST CASE TITLE{tuple_delimiter}Describes the act of Adding Candidate )
+{record_delimiter}
+
+("entity"{tuple_delimiter}Login{tuple_delimiter}TEST CASE TITLE{tuple_delimiter}Describes the act of Logging in to the application)
+{record_delimiter}
+
+
+
+("relationship"{tuple_delimiter}Shortlist Candidate{tuple_delimiter}Candidate process in the platform{tuple_delimiter}the "Shortlist Candidate" test is included in the "Candidate process in the platform" end to end test, the latter contains test steps from the former{tuple_delimiter}9)
+{completion_delimiter}
+
+("relationship"{tuple_delimiter}Schedule interview for a candidate{tuple_delimiter}Candidate process in the platform{tuple_delimiter}the "Schedule interview for a candidate" test is included in the "Candidate process in the platform" end to end test, the latter contains test steps from the former{tuple_delimiter}9)
+{completion_delimiter}
+
+("relationship"{tuple_delimiter}Verify candidate existence in main page{tuple_delimiter}Candidate process in the platform{tuple_delimiter}the "Verify candidate existence in main page" test is included in the "Candidate process in the platform" end to end test, the latter contains test steps from the former{tuple_delimiter}9)
+{completion_delimiter}
+
+("relationship"{tuple_delimiter}Add Candidate{tuple_delimiter}Candidate process in the platform{tuple_delimiter}the "Add Candidate" test is included in the "Candidate process in the platform" end to end test, the latter contains test steps from the former{tuple_delimiter}9)
+{completion_delimiter}
+
+("relationship"{tuple_delimiter}Login{tuple_delimiter}Candidate process in the platform{tuple_delimiter}the "Login" test is included in the "Candidate process in the platform" end to end test, the latter contains test steps from the former{tuple_delimiter}9)
+{completion_delimiter}
+
+("relationship"{tuple_delimiter}Shortlist Candidate{tuple_delimiter}Schedule interview for a candidate{tuple_delimiter}Both entities are related to the same feature : Candidate {tuple_delimiter}8)
+{completion_delimiter}
+
+("relationship"{tuple_delimiter}Add Candidate{tuple_delimiter}Schedule interview for a candidate{tuple_delimiter}Both entities are related to the same feature : Candidate {tuple_delimiter}8)
+{completion_delimiter}
+
+("relationship"{tuple_delimiter}Verify candidate existence in main page{tuple_delimiter}Schedule interview for a candidate{tuple_delimiter}Both entities are related to the same feature : Candidate {tuple_delimiter}8)
+{completion_delimiter}
+
+
+("entity"{tuple_delimiter}Functional Test{tuple_delimiter}TEST TYPE{tuple_delimiter}The test case describes the functional passed case of A given scenario)
+{record_delimiter}
+
+("entity"{tuple_delimiter}End to End Test{tuple_delimiter}TEST TYPE{tuple_delimiter}The test case describes the E2E scenario in the platform for a set of sequential actions in the application)
+{record_delimiter}
+
+("entity"{tuple_delimiter}
+Given the admin is on the Candidate profile page of <FullName>
+And the candidate application staus is "Shortlisted"
+When he scrolls to the "Application Stage" section
+And he clicks the "schedule Interview" button
+Then he gets redirected to a "schedule Interview" page
+And he enters Interview Title field with <Interview Title>
+And he enters the Interviewer Name field <InterviewerName>
+And he enters the Interview Date field <Interview Date>
+And he enters the Interview Time field <Interview Time>
+And he clicks the "Save" button
+Then he sees a the message <Message>
+{tuple_delimiter}TEST STEPS{tuple_delimiter})
+{record_delimiter}
+
+("entity"{tuple_delimiter}
+Given the admin is on the Candidate profile page of  name <FullName>
+And the candidate application staus is "Application Initialized"
+When he scrolls to the "Application Stage" section
+And he clicks the "Shortlist" button
+Then he gets redirected to a "Shortlist candidate" page
+And he sees the candidate Data greyed
+When he clicks the "Save" button
+Then he sees a message confirming the success of operation <Message>
+{tuple_delimiter}TEST STEPS{tuple_delimiter})
+{record_delimiter}
+
+("entity"{tuple_delimiter}
+Given The administrator is logged in
+When The administrator clicks on the "Recruitment" menu
+And The administrator scrolls down
+When The admin checks a candidate of name <FullName>
+Then the admin should see the Application Status <AppStatus>
+And the admin should see the Hiring Manager name <HiringManager>
+And the admin should see the  Application Date <AppDate>
+{tuple_delimiter}TEST STEPS{tuple_delimiter})
+{record_delimiter}
+
+("entity"{tuple_delimiter}
+Given The administrator is logged in
+When The administrator clicks on the "Recruitement" menu
+Then he should see a search "candidates" section
+and he should see an Add section containing "Records"
+When he scrolls to the "Records" section containing "+ Add" button
+And he clicks on the "Add" button to add a candidate
+Then he gets redirected to a "Add Candidate" page
+And The administrator enters the first name <First Name>
+And The administrator enters the last name <Last Name>
+And The administrator enters the email <Email>
+And The administrator enters the Vacancy <Job Title>
+And The administrator clicks on the "Save" button
+Then A confirmation message appears indicating that the candidate was successfully added : <Message>
+{tuple_delimiter}TEST STEPS{tuple_delimiter})
+{record_delimiter}
+
+("entity"{tuple_delimiter}
+Given I am on the application landing page <url>
+When I enter <username> in the username field
+And I enter  <password> in the password field
+And I click the "Login" button
+Then I get redirected to the landing page in the "Dashboard" section
+{tuple_delimiter}TEST STEPS{tuple_delimiter})
+{record_delimiter}
+
+
+("relationship"{tuple_delimiter}
+Add Candidate
+{tuple_delimiter}
+Given The administrator is logged in
+When The administrator clicks on the "Recruitement" menu
+Then he should see a search "candidates" section
+and he should see an Add section containing "Records"
+When he scrolls to the "Records" section containing "+ Add" button
+And he clicks on the "Add" button to add a candidate
+Then he gets redirected to a "Add Candidate" page
+And The administrator enters the first name <First Name>
+And The administrator enters the last name <Last Name>
+And The administrator enters the email <Email>
+And The administrator enters the Vacancy <Job Title>
+And The administrator clicks on the "Save" button
+Then A confirmation message appears indicating that the candidate was successfully added : <Message>
+{tuple_delimiter}
+These test steps are associated to the test case of title "Add Candidate"
+{tuple_delimiter}10)
+{completion_delimiter}
+
+
+("relationship"{tuple_delimiter}
+Verify candidate existence in main page
+{tuple_delimiter}
+Given The administrator is logged in
+When The administrator clicks on the "Recruitment" menu
+And The administrator scrolls down
+When The admin checks a candidate of name <FullName>
+Then the admin should see the Application Status <AppStatus>
+And the admin should see the Hiring Manager name <HiringManager>
+And the admin should see the  Application Date <AppDate>
+{tuple_delimiter}
+These test steps are associated to the test case of title "Verify candidate existence in main page"
+{tuple_delimiter}10)
+{completion_delimiter}
+
+
+("relationship"{tuple_delimiter}
+Login
+{tuple_delimiter}
+Given I am on the application landing page <url>
+When I enter <username> in the username field
+And I enter  <password> in the password field
+And I click the "Login" button
+Then I get redirected to the landing page in the "Dashboard" section
+{tuple_delimiter}
+These test steps are associated to the test case of title "Login"
+{tuple_delimiter}10)
+{completion_delimiter}
+
+
+("relationship"{tuple_delimiter}
+schedule Interview for a candidate
+{tuple_delimiter}
+Given the admin is on the Candidate profile page of <FullName>
+And the candidate application staus is "Shortlisted"
+When he scrolls to the "Application Stage" section
+And he clicks the "schedule Interview" button
+Then he gets redirected to a "schedule Interview" page
+And he enters Interview Title field with <Interview Title>
+And he enters the Interviewer Name field <InterviewerName>
+And he enters the Interview Date field <Interview Date>
+And he enters the Interview Time field <Interview Time>
+And he clicks the "Save" button
+Then he sees a the message <Message>
+{tuple_delimiter}
+These test steps are associated to the test case of title "schedule Interview for a Candidate"
+{tuple_delimiter}10)
+{completion_delimiter}
+
+
+("relationship"{tuple_delimiter}
+Shortlist candidate
+{tuple_delimiter}
+Given the admin is on the Candidate profile page of  name <FullName>
+And the candidate application staus is "Application Initialized"
+When he scrolls to the "Application Stage" section
+And he clicks the "Shortlist" button
+Then he gets redirected to a "Shortlist candidate" page
+And he sees the candidate Data greyed
+When he clicks the "Save" button
+Then he sees a message confirming the success of operation <Message>
+{tuple_delimiter}
+These test steps are associated to the test case of title "Shortlist candidate"
+{tuple_delimiter}10)
+{completion_delimiter}
+
+
+
+######################
+-Real Data-
+######################
+Entity_types: {entity_types}
+Text: {input_text}
+######################
+Output:

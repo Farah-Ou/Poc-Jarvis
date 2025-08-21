@@ -1,0 +1,332 @@
+{
+  "job_20250814_202959_667488": {
+    "status": "failed",
+    "started_at": "2025-08-14T20:29:59.667488",
+    "finished_at": "2025-08-14T20:29:59.682802",
+    "result": {
+      "error": "Test case generation failed: No user stories Excel file found. Please import user stories first using the import endpoint."
+    }
+  },
+  "job_20250814_202959_779625": {
+    "status": "failed",
+    "started_at": "2025-08-14T20:29:59.779625",
+    "finished_at": "2025-08-14T20:29:59.802387",
+    "result": {
+      "error": "Test case generation failed: No user stories Excel file found. Please import user stories first using the import endpoint."
+    }
+  },
+  "job_20250815_133110_712203": {
+    "status": "failed",
+    "started_at": "2025-08-15T13:31:10.712203",
+    "finished_at": "2025-08-15T13:31:10.718896",
+    "result": {
+      "error": "Test case generation failed: No user stories Excel file found. Please import user stories first using the import endpoint."
+    }
+  },
+  "job_20250815_141841_553554": {
+    "status": "completed",
+    "started_at": "2025-08-15T14:18:41.553554",
+    "finished_at": "2025-08-15T14:20:40.092701",
+    "result": {
+      "message": "Test cases generated successfully",
+      "excel_path": "C:\\Users\\dboutiti\\Documents\\Jarvis_2_0_to_Clean\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\Gen_TC_functional_non_functional.xlsx",
+      "json_path": "C:\\Users\\dboutiti\\Documents\\Jarvis_2_0_to_Clean\\ALL_INTERMEDIATE_STATE_CONFIG\\Intermediary_Functional_Edge_Generated_Tests\\generated_test_cases_history.json",
+      "source_excel_path": "C:\\Users\\dboutiti\\Documents\\Jarvis_2_0_to_Clean\\ALL_INPUT\\User_Data\\US_to_generate_folder\\P7P\\X6bgV0bw\\user_stories_20250815_141649.xlsx",
+      "total_cases_generated": 1,
+      "total_cases_in_history": 1
+    }
+  },
+  "job_20250815_142520_410601": {
+    "status": "failed",
+    "started_at": "2025-08-15T14:25:20.410601",
+    "finished_at": "2025-08-15T14:25:20.415517",
+    "result": {
+      "error": "Test case generation failed: No user stories Excel file found. Please import user stories first using the import endpoint."
+    }
+  },
+  "job_20250815_142925_198813": {
+    "status": "completed",
+    "started_at": "2025-08-15T14:29:25.198813",
+    "finished_at": "2025-08-15T14:32:32.071884",
+    "result": {
+      "message": "Test cases generated successfully",
+      "excel_path": "C:\\Users\\dboutiti\\Documents\\Jarvis_2_0_to_Clean\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\Gen_TC_functional_non_functional.xlsx",
+      "json_path": "C:\\Users\\dboutiti\\Documents\\Jarvis_2_0_to_Clean\\ALL_INTERMEDIATE_STATE_CONFIG\\Intermediary_Functional_Edge_Generated_Tests\\generated_test_cases_history.json",
+      "source_excel_path": "C:\\Users\\dboutiti\\Documents\\Jarvis_2_0_to_Clean\\ALL_INPUT\\User_Data\\US_to_generate_folder\\P7P\\X6bgV0bw\\user_stories_20250815_142912.xlsx",
+      "total_cases_generated": 1,
+      "total_cases_in_history": 2
+    }
+  },
+  "job_20250815_154529_849355": {
+    "status": "failed",
+    "started_at": "2025-08-15T15:45:29.850353",
+    "finished_at": "2025-08-15T15:45:29.854260",
+    "result": {
+      "error": "Test case generation failed: 'builtin_function_or_method' object is not subscriptable"
+    }
+  },
+  "job_20250815_155105_260267": {
+    "status": "failed",
+    "started_at": "2025-08-15T15:51:05.260267",
+    "finished_at": "2025-08-15T15:51:05.267621",
+    "result": {
+      "error": "Test case generation failed: 'builtin_function_or_method' object is not subscriptable"
+    }
+  },
+  "job_20250815_155114_237645": {
+    "status": "failed",
+    "started_at": "2025-08-15T15:51:14.237645",
+    "finished_at": "2025-08-15T15:51:14.247376",
+    "result": {
+      "error": "Test case generation failed: 'builtin_function_or_method' object is not subscriptable"
+    }
+  },
+  "job_20250815_155247_304201": {
+    "status": "failed",
+    "started_at": "2025-08-15T15:52:47.304255",
+    "finished_at": "2025-08-15T15:52:47.308964",
+    "result": {
+      "error": "Test case generation failed: 'builtin_function_or_method' object is not subscriptable"
+    }
+  },
+  "job_20250815_155348_320564": {
+    "status": "failed",
+    "started_at": "2025-08-15T15:53:48.320564",
+    "finished_at": "2025-08-15T15:53:48.384970",
+    "result": {
+      "error": "Test case generation failed: Failed to load user stories Excel file: [Errno 13] Permission denied: 'C:\\\\Users\\\\dboutiti\\\\Documents\\\\Jarvis_2_0_to_Clean\\\\ALL_INPUT\\\\User_Data\\\\US_to_generate_folder\\\\P7P\\\\X6bgV0bw'"
+    }
+  },
+  "job_20250815_155616_936923": {
+    "status": "failed",
+    "started_at": "2025-08-15T15:56:16.936923",
+    "finished_at": "2025-08-15T15:56:17.048248",
+    "result": {
+      "error": "Test case generation failed: Failed to load user stories Excel file: [Errno 13] Permission denied: 'C:\\\\Users\\\\dboutiti\\\\Documents\\\\Jarvis_2_0_to_Clean\\\\ALL_INPUT\\\\User_Data\\\\US_to_generate_folder\\\\P7P\\\\X6bgV0bw'"
+    }
+  },
+  "job_20250815_155901_836080": {
+    "status": "failed",
+    "started_at": "2025-08-15T15:59:01.836080",
+    "finished_at": "2025-08-15T15:59:01.842997",
+    "result": {
+      "error": "Test case generation failed: Failed to load user stories Excel file: [Errno 13] Permission denied: 'C:\\\\Users\\\\dboutiti\\\\Documents\\\\Jarvis_2_0_to_Clean\\\\ALL_INPUT\\\\User_Data\\\\US_to_generate_folder\\\\P7P\\\\X6bgV0bw'"
+    }
+  },
+  "job_20250815_160833_008984": {
+    "status": "failed",
+    "started_at": "2025-08-15T16:08:33.008984",
+    "finished_at": "2025-08-15T16:08:33.017231",
+    "result": {
+      "error": "Test case generation failed: Failed to load user stories Excel file: cannot access local variable 'excel_files' where it is not associated with a value"
+    }
+  },
+  "job_20250815_161120_233121": {
+    "status": "failed",
+    "started_at": "2025-08-15T16:11:20.233121",
+    "finished_at": "2025-08-15T16:11:20.241849",
+    "result": {
+      "error": "Test case generation failed: Failed to load user stories Excel file: cannot access local variable 'excel_files' where it is not associated with a value"
+    }
+  },
+  "job_20250815_161229_689678": {
+    "status": "failed",
+    "started_at": "2025-08-15T16:12:29.689678",
+    "finished_at": "2025-08-15T16:12:29.698125",
+    "result": {
+      "error": "Test case generation failed: Failed to load user stories Excel file: cannot access local variable 'excel_files' where it is not associated with a value"
+    }
+  },
+  "job_20250815_161322_056135": {
+    "status": "failed",
+    "started_at": "2025-08-15T16:13:22.056135",
+    "finished_at": "2025-08-15T16:13:22.062263",
+    "result": {
+      "error": "Test case generation failed: Failed to load user stories Excel file: cannot access local variable 'excel_files' where it is not associated with a value"
+    }
+  },
+  "job_20250815_161350_546326": {
+    "status": "failed",
+    "started_at": "2025-08-15T16:13:50.546326",
+    "finished_at": "2025-08-15T16:13:50.553869",
+    "result": {
+      "error": "Test case generation failed: Failed to load user stories Excel file: cannot access local variable 'excel_files' where it is not associated with a value"
+    }
+  },
+  "job_20250815_161650_630443": {
+    "status": "failed",
+    "started_at": "2025-08-15T16:16:50.630443",
+    "finished_at": "2025-08-15T16:16:50.640094",
+    "result": {
+      "error": "Test case generation failed: Failed to load user stories Excel file: cannot access local variable 'excel_files' where it is not associated with a value"
+    }
+  },
+  "job_20250815_161759_986088": {
+    "status": "failed",
+    "started_at": "2025-08-15T16:17:59.986088",
+    "finished_at": "2025-08-15T16:17:59.991045",
+    "result": {
+      "error": "Test case generation failed: Failed to load user stories Excel file: cannot access local variable 'excel_files' where it is not associated with a value"
+    }
+  },
+  "job_20250815_161916_720157": {
+    "status": "failed",
+    "started_at": "2025-08-15T16:19:16.721171",
+    "finished_at": "2025-08-15T16:19:16.761534",
+    "result": {
+      "error": "Test case generation failed: Cannot save file into a non-existent directory: 'C:\\Users\\dboutiti\\Documents\\Jarvis_2_0_to_Clean\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\P7P'"
+    }
+  },
+  "job_20250815_162603_358370": {
+    "status": "failed",
+    "started_at": "2025-08-15T16:26:03.358370",
+    "finished_at": "2025-08-15T16:27:31.048400",
+    "result": {
+      "error": "Test case generation failed: Cannot save file into a non-existent directory: 'C:\\Users\\dboutiti\\Documents\\Jarvis_2_0_to_Clean\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\P7P'"
+    }
+  },
+  "job_20250815_163048_893395": {
+    "status": "completed",
+    "started_at": "2025-08-15T16:30:48.893395",
+    "finished_at": "2025-08-15T16:31:36.828451",
+    "result": {
+      "message": "Test cases generated successfully",
+      "excel_path": "C:\\Users\\dboutiti\\Documents\\Jarvis_2_0_to_Clean\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\P7P\\Gen_TC_functional_non_functional_X6bgV0bw.xlsx",
+      "json_path": "C:\\Users\\dboutiti\\Documents\\Jarvis_2_0_to_Clean\\ALL_INTERMEDIATE_STATE_CONFIG\\Intermediary_Functional_Edge_Generated_Tests\\P7P\\generated_test_cases_history_{user_id}.json",
+      "source_excel_path": "C:\\Users\\dboutiti\\Documents\\Jarvis_2_0_to_Clean\\ALL_INPUT\\User_Data\\US_to_generate_folder\\P7P\\X6bgV0bw\\user_stories_20250815_163044.xlsx",
+      "total_cases_generated": 1,
+      "total_cases_in_history": 0
+    }
+  },
+  "job_20250816_010436_789786": {
+    "status": "completed",
+    "started_at": "2025-08-16T01:04:36.789786",
+    "finished_at": "2025-08-16T01:05:08.303916",
+    "result": {
+      "message": "Test cases generated successfully",
+      "excel_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\P7P\\Gen_TC_functional_non_functional_ZOlFowQv.xlsx",
+      "json_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_INTERMEDIATE_STATE_CONFIG\\Intermediary_Functional_Edge_Generated_Tests\\P7P\\generated_test_cases_history_{user_id}.json",
+      "source_excel_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_INPUT\\User_Data\\US_to_generate_folder\\P7P\\ZOlFowQv\\user_stories_20250816_010357.xlsx",
+      "total_cases_generated": 1,
+      "total_cases_in_history": 0
+    }
+  },
+  "job_20250816_011244_077831": {
+    "status": "failed",
+    "started_at": "2025-08-16T01:12:44.077831",
+    "finished_at": "2025-08-16T01:15:07.779887",
+    "result": {
+      "error": "Test case generation failed: Cannot save file into a non-existent directory: 'C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\P7P\\P7P'"
+    }
+  },
+  "job_20250816_013055_727406": {
+    "status": "failed",
+    "started_at": "2025-08-16T01:30:55.727406",
+    "finished_at": "2025-08-16T01:33:29.061934",
+    "result": {
+      "error": "Test case generation failed: Cannot save file into a non-existent directory: 'C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\P7P\\P7P'"
+    }
+  },
+  "job_20250816_013848_068632": {
+    "status": "failed",
+    "started_at": "2025-08-16T01:38:48.068632",
+    "finished_at": "2025-08-16T01:41:13.084048",
+    "result": {
+      "error": "Test case generation failed: Cannot save file into a non-existent directory: 'C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\P7P\\P7P'"
+    }
+  },
+  "job_20250816_081214_776816": {
+    "status": "completed",
+    "started_at": "2025-08-16T08:12:14.776816",
+    "finished_at": "2025-08-16T08:13:30.406748",
+    "result": {
+      "message": "Test cases generated successfully",
+      "excel_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\Gen_TC_functional_non_functional_ZOlFowQv.xlsx",
+      "json_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_INTERMEDIATE_STATE_CONFIG\\Intermediary_Functional_Edge_Generated_Tests\\P7P\\generated_test_cases_history_ZOlFowQv.json",
+      "source_excel_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_INPUT\\User_Data\\US_to_generate_folder\\P7P\\ZOlFowQv\\user_stories_20250816_081207.xlsx",
+      "total_cases_generated": 1,
+      "total_cases_in_history": 1
+    }
+  },
+  "job_20250816_081549_332794": {
+    "status": "completed",
+    "started_at": "2025-08-16T08:15:49.332794",
+    "finished_at": "2025-08-16T08:17:46.646530",
+    "result": {
+      "message": "Test cases generated successfully",
+      "excel_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\P7P\\Gen_TC_functional_non_functional_ZOlFowQv.xlsx",
+      "json_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_INTERMEDIATE_STATE_CONFIG\\Intermediary_Functional_Edge_Generated_Tests\\P7P\\generated_test_cases_history_ZOlFowQv.json",
+      "source_excel_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_INPUT\\User_Data\\US_to_generate_folder\\P7P\\ZOlFowQv\\user_stories_20250816_081545.xlsx",
+      "total_cases_generated": 1,
+      "total_cases_in_history": 2
+    }
+  },
+  "job_20250820_141148_274017": {
+    "status": "completed",
+    "started_at": "2025-08-20T14:11:48.274017",
+    "finished_at": "2025-08-20T14:13:14.715241",
+    "result": {
+      "message": "Test cases generated successfully",
+      "excel_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\P7P\\Gen_TC_functional_non_functional_ZOlFowQv.xlsx",
+      "json_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_INTERMEDIATE_STATE_CONFIG\\Intermediary_Functional_Edge_Generated_Tests\\P7P\\generated_test_cases_history_ZOlFowQv.json",
+      "source_excel_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_INPUT\\User_Data\\US_to_generate_folder\\P7P\\ZOlFowQv\\user_stories_20250820_141137.xlsx",
+      "total_cases_generated": 1,
+      "total_cases_in_history": 3
+    }
+  },
+  "job_20250820_144727_598923": {
+    "status": "failed",
+    "started_at": "2025-08-20T14:47:27.598923",
+    "finished_at": "2025-08-20T14:47:27.765217",
+    "result": {
+      "error": "Test case generation failed: Failed to load user stories Excel file: Invalid file path or buffer object type: <class 'NoneType'>"
+    }
+  },
+  "job_20250820_144744_532406": {
+    "status": "completed",
+    "started_at": "2025-08-20T14:47:44.532406",
+    "finished_at": "2025-08-20T14:49:08.442873",
+    "result": {
+      "message": "Test cases generated successfully",
+      "excel_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\P7P\\Gen_TC_functional_non_functional_ZOlFowQv.xlsx",
+      "json_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_INTERMEDIATE_STATE_CONFIG\\Intermediary_Functional_Edge_Generated_Tests\\P7P\\generated_test_cases_history_ZOlFowQv.json",
+      "source_excel_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_INPUT\\User_Data\\US_to_generate_folder\\P7P\\ZOlFowQv\\user_stories_20250820_144740.xlsx",
+      "total_cases_generated": 1,
+      "total_cases_in_history": 4
+    }
+  },
+  "job_20250820_155100_627601": {
+    "status": "failed",
+    "started_at": "2025-08-20T15:51:00.627601",
+    "finished_at": "2025-08-20T15:51:00.849660",
+    "result": {
+      "error": "Test case generation failed: Failed to load user stories Excel file: Invalid file path or buffer object type: <class 'NoneType'>"
+    }
+  },
+  "job_20250820_155119_619097": {
+    "status": "completed",
+    "started_at": "2025-08-20T15:51:19.619097",
+    "finished_at": "2025-08-20T15:53:02.274024",
+    "result": {
+      "message": "Test cases generated successfully",
+      "excel_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\P7P\\Gen_TC_functional_non_functional_ZOlFowQv.xlsx",
+      "json_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_INTERMEDIATE_STATE_CONFIG\\Intermediary_Functional_Edge_Generated_Tests\\P7P\\generated_test_cases_history_ZOlFowQv.json",
+      "source_excel_path": "C:\\Users\\foueslati\\Desktop\\Jarvis PROD 2.0.2\\ALL_INPUT\\User_Data\\US_to_generate_folder\\P7P\\ZOlFowQv\\user_stories_20250820_155116.xlsx",
+      "total_cases_generated": 1,
+      "total_cases_in_history": 5
+    }
+  },
+  "job_20250821_124514_865615": {
+    "status": "completed",
+    "started_at": "2025-08-21T12:45:14.865615",
+    "finished_at": "2025-08-21T12:47:28.496021",
+    "result": {
+      "message": "Test cases generated successfully",
+      "excel_path": "C:\\Users\\dboutiti\\Documents\\push one\\Jarvis_2_0_to_Clean\\ALL_OUTPUT\\Generated_output\\Final_Generated_Edge_Functional_Tests\\P7P\\Gen_TC_functional_non_functional_X6bgV0bw.xlsx",
+      "json_path": "C:\\Users\\dboutiti\\Documents\\push one\\Jarvis_2_0_to_Clean\\ALL_INTERMEDIATE_STATE_CONFIG\\Intermediary_Functional_Edge_Generated_Tests\\P7P\\generated_test_cases_history_X6bgV0bw.json",
+      "source_excel_path": "C:\\Users\\dboutiti\\Documents\\push one\\Jarvis_2_0_to_Clean\\ALL_INPUT\\User_Data\\US_to_generate_folder\\P7P\\X6bgV0bw\\user_stories_20250821_124504.xlsx",
+      "total_cases_generated": 1,
+      "total_cases_in_history": 1
+    }
+  }
+}

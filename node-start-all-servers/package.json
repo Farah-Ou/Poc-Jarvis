@@ -1,0 +1,37 @@
+{
+  "name": "node-start-all-servers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:Backend": "cd ../Backend && ..\\venv\\Scripts\\python.exe -m uvicorn src.app:app --reload --port 8000",
+   
+    "start:BackendTCGen": "cd ../Backend && uvicorn Backend_TC_Gen.main:app --reload --port 8003",
+    "start:BackendAuto": "cd ../Backend && uvicorn Backend_Auto.main:app --reload --port 8004",
+    "start:BackendEval": "cd ../Backend && uvicorn Backend_Eval.main:app --reload --port 8002",
+    "start:Frontend": "cd ../Frontend/my-app && cross-env CHOKIDAR_USEPOLLING=true npm start",
+    "start:graphVisUS": "cd ../Created_Graphs/US-Graph-Visual/graphrag-visualizer && cross-env PORT=3001 npm start",
+    "start:graphVisCtx": "cd ../Created_Graphs/Context-Graph-Visual/graphrag-visualizer && cross-env PORT=3002 npm start",
+    "start:graphVisGuidelines": "cd ../Created_Graphs/Guidelines-Graph-Visual/graphrag-visualizer && cross-env PORT=3003 npm start",
+    "start:graphVisHistoryTC": "cd ../Created_Graphs/Test-Cases-History-Graph-Visual/graphrag-visualizer && cross-env PORT=3004 npm start",
+    "start:graphVisBusiness": "cd ../Created_Graphs/Business-Domain-Graph-Visual/graphrag-visualizer && cross-env PORT=3005 npm start",
+
+    "start:all-debug": "concurrently --kill-others -n \"Backend,TCGen,Auto,Eval,Frontend,GraphUS,GraphCtx,GraphGuide,GraphTC\" -c \"blue,green,yellow,red,magenta,cyan,white,gray,brightBlue\" \"npm run start:Backend\" \"npm run start:BackendTCGen\" \"npm run start:BackendAuto\" \"npm run start:BackendEval\" \"npm run start:Frontend\" \"npm run start:graphVisUS\" \"npm run start:graphVisCtx\" \"npm run start:graphVisGuidelines\" \"npm run start:graphVisHistoryTC\"",
+    "start:backends-only": "concurrently --kill-others -n \"Backend,TCGen,Auto,Eval\" -c \"blue,green,yellow,red\" \"npm run start:Backend\" \"npm run start:BackendTCGen\" \"npm run start:BackendAuto\" \"npm run start:BackendEval\"",
+    "start:frontend-only": "concurrently --kill-others -n \"Frontend\" -c \"magenta\" \"npm run start:Frontend\"",
+    "start:graphs-only": "concurrently --kill-others -n \"GraphUS,GraphCtx,GraphGuide,GraphTC\" -c \"cyan,white,gray,brightBlue\" \"npm run start:graphVisUS\" \"npm run start:graphVisCtx\" \"npm run start:graphVisGuidelines\" \"npm run start:graphVisHistoryTC\" \"npm run start:graphVisBusiness\"",
+    "start:all": "concurrently --kill-others --raw -n \"Backend,TCGen,Auto,Eval,Frontend,GraphUS,GraphCtx,GraphGuide,GraphTC,graphVisBusiness\" -c \"blue,green,yellow,red,magenta,cyan,white,gray,brightBlue,brightMagenta\" \"npm run start:Backend\" \"npm run start:BackendTCGen\" \"npm run start:BackendAuto\" \"npm run start:BackendEval\" \"npm run start:Frontend\" \"npm run start:graphVisUS\" \"npm run start:graphVisCtx\" \"npm run start:graphVisGuidelines\" \"npm run start:graphVisHistoryTC\" \"npm run start:graphVisBusiness\"",
+    "start:backends": "concurrently -k -n \"Backend,TCGen,Auto,Eval\" -c \"blue,green,yellow,red\" \"npm run start:Backend\" \"npm run start:BackendTCGen\" \"npm run start:BackendAuto\" \"npm run start:BackendEval\"",
+    "start:frontends": "concurrently -k -n \"Frontend,GraphUS,GraphCtx,GraphGuide,GraphTC,graphVisBusiness\" -c \"magenta,cyan,white,gray,brightBlue,brightMagenta\" \"npm run start:Frontend\" \"npm run start:graphVisUS\" \"npm run start:graphVisCtx\" \"npm run start:graphVisGuidelines\" \"npm run start:graphVisHistoryTC\"",
+    "start:core-only": "concurrently --kill-others -n \"Backend,TCGen,Auto,Frontend\" -c \"blue,green,yellow,red\" \"npm run start:Backend\" \"npm run start:BackendTCGen\" \"npm run start:BackendAuto\" \"npm run start:Frontend\""
+  },
+  "author": "farah.oueslati@talan.com",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

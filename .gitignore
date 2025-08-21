@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and debug
+*.log
+logs/
+debug.log
+
+# Virtual environment
+venv/
+.env/
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS / system files
+.DS_Store
+Thumbs.db
+
+# Python notebooks checkpoints
+.ipynb_checkpoints/
+
+# Build output
+build/
+dist/
+*.egg-info/
+
+# Node.js
+node_modules/
+
+# Ignore specific file
+secret_config.py
+
+# Ignore a specific folder (repo or sub-project)
+sub_repo_folder_name/
+
+# Ignore all files of a type
+*.sqlite3
+*.db
+
+# Ignore specific directories and paths
+ALL_INPUT/
+ALL_OUTPUT/
+Backend/Backend_TC_Gen/__pycache__/
+Backend/src/__pycache__/
+Created_Graphs/US-Graph-Visual/graphrag-visualizer/node_modules/
+Frontend/my-app/node_modules/

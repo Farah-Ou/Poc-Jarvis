@@ -1,0 +1,35 @@
+{
+  "job_100834_604061": {
+    "job_id": "job_100834_604061",
+    "status": "completed",
+    "started_at": "2025-08-12T10:08:34.611140",
+    "finished_at": "2025-08-12T10:08:49.612569",
+    "result": {
+      "timestamp": "2025-08-12T10:08:49.612569",
+      "message": "Generation successful",
+      "duration_seconds": 15
+    }
+  },
+  "job_100840_286925": {
+    "job_id": "job_100840_286925",
+    "status": "completed",
+    "started_at": "2025-08-12T10:08:40.288942",
+    "finished_at": "2025-08-12T10:08:55.290599",
+    "result": {
+      "timestamp": "2025-08-12T10:08:55.290599",
+      "message": "Generation successful",
+      "duration_seconds": 15
+    }
+  },
+  "job_100915_665930": {
+    "job_id": "job_100915_665930",
+    "status": "completed",
+    "started_at": "2025-08-12T10:09:15.666928",
+    "finished_at": "2025-08-12T10:09:30.669391",
+    "result": {
+      "timestamp": "2025-08-12T10:09:30.669391",
+      "message": "Generation successful",
+      "duration_seconds": 15
+    }
+  }
+}

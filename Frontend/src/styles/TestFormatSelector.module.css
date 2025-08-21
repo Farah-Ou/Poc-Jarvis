@@ -1,0 +1,71 @@
+.formSection {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.formatOptions {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.formatOption {
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  font-size: 14px;
+  text-align: center; /* Centering text inside the box */
+  line-height: 1.5;
+}
+
+.buttonContainer {
+  margin-top: 10px;
+}
+
+.formatOption button {
+  background-color: #4c8ed5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formatOption button:hover {
+  background-color: #0153ac;
+}
+
+.selectedFormat {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #5baaff;
+  text-align: center;
+}
+
+.confirmButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.confirmButton:hover {
+  background-color: #4161ba;
+}

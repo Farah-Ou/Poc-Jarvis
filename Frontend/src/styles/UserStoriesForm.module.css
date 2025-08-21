@@ -1,0 +1,121 @@
+/* Main Card Container */
+.card {
+  background-color: #e3f2fd;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  width: 250px;
+}
+
+/* Wide Card Variant - Responsive & Centered */
+.cardWide {
+  background-color: #e3f2fd;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Input Field Styles */
+.inputField {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin: 0.5rem auto;
+  display: block;
+}
+
+/* Button Base Style */
+.button {
+  display: block;
+  margin: 0.8rem auto;
+  padding: 0.5rem 1rem;
+  border: 2px solid #90caf9;
+  border-radius: 20px;
+  background-color: white;
+  color: #1976d2;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #bbdefb;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* File Upload Drop Zone */
+.fileUpload {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem auto;
+  border: 2px dashed #90caf9;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  color: #1976d2;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+}
+
+.fileUpload:hover {
+  background-color: #e3f2fd;
+  border-color: #1976d2;
+}
+
+/* Hide Native File Input */
+.fileUpload input[type="file"] {
+  display: none;
+}
+
+/* Hint Text */
+.hint {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.5rem auto;
+  text-align: center;
+  max-width: 100%;
+  display: block;
+}
+
+/* Success Message */
+.message {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  color: #16a085;
+  background-color: #e8fdf2;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Error Message */
+.errorMessage {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  color: #e74c3c;
+  background-color: #fbeaea;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Disabled Button Override */
+.buttonDisabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}
